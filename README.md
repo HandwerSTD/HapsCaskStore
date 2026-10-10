@@ -11,6 +11,13 @@
 wget -O - "https://raw.githubusercontent.com/HandwerSTD/HapsCaskStore/main/install.sh" | sh
 ```
 
+连不上 `raw.githubusercontent.com` 的网络（某些环境会拦这个域名）改用 git 取：
+
+```sh
+git clone --depth 1 https://github.com/HandwerSTD/HapsCaskStore.git ~/haps-cask-store
+sh ~/haps-cask-store/install.sh
+```
+
 脚本会先检测 brew 有没有 cask 能力（Harmonybrew 自带的版本不包含 cask 支持，
 `brew install --cask` 用不了）。检测方式是看补丁带来的 `ohos_app` stanza 在不在：
 
