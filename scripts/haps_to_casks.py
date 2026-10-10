@@ -106,23 +106,56 @@ class Client:
 
         time.sleep(min(2 ** attempt, 30))
 
-    def best_release(self, repo):
-        """返回仓库里作为数据来源的那个 Release，取不到时返回 None。
+    def release_candidates(self, repo):
+        """返回可用的 Release，按优先级从高到低排列，取不到时返回空列表。
 
-        `releases/latest` 会跳过预发布，很多鸿蒙应用只发预发布，所以先读列表再挑选。
+        `releases/latest` 会跳过预发布，很多鸿蒙应用只发预发布，所以读列表后自己排序。
         """
         releases = self.get_json(f"{API}/repos/{repo}/releases?per_page=100")
         if not releases:
-            return None
+            return []
         candidates = [release for release in releases if not release.get("draft")]
-        if not candidates:
-            return None
-        return max(candidates, key=release_sort_key)
+        candidates.sort(key=release_sort_key, reverse=True)
+        return candidates
+
+    def url_ok(self, url):
+        """检查 Release 的下载地址是否真的能取到。
+
+        返回 True 表示能取到，False 表示确实取不到，None 表示判断不了（网络出错、
+        返回码意外）。判断不了时当能用，避免一次网络波动就把条目从仓库里抹掉。
+
+        走的是 github.com 下载域名而不是 API，不消耗 API 额度；也不带 Authorization，
+        免得 token 跟着重定向落到对象存储域名上。
+        """
+        headers = {"User-Agent": self.headers["User-Agent"]}
+        # 少数服务端不接受 HEAD，退回到只取一个字节的 GET。
+        attempts = [("HEAD", {}), ("GET", {"Range": "bytes=0-0"})]
+        for method, extra in attempts:
+            request = urllib.request.Request(url, headers={**headers, **extra}, method=method)
+            try:
+                with urllib.request.urlopen(request, timeout=self.timeout) as response:
+                    return 200 <= response.status < 400
+            except urllib.error.HTTPError as error:
+                if error.code in (403, 405, 501):
+                    if method == "GET":
+                        return None
+                    continue
+                if error.code in (404, 410):
+                    return False
+                return None
+            except OSError:
+                return None
+        return None
 
 
 def release_sort_key(release):
-    """候选比较键：稳定版优先，其次创建时间更晚的优先。"""
-    return (0 if not release.get("prerelease") else 1, release.get("created_at") or "")
+    """候选比较键：创建时间更晚的优先，同一时刻才让稳定版压过预发布。
+
+    预发布排在前面会让自动同步把用户钉在旧版本上：不少仓库的稳定版比预发布新，
+    例如 amcl 的 v1.0.5（2026-09-24）晚于 v1.0.0-beta.5（2026-07-03）。
+    只有仓库不发稳定版时才会取到预发布。
+    """
+    return (release.get("created_at") or "", 0 if release.get("prerelease") else 1)
 
 
 def fetch_upstream_apps(client):
@@ -326,13 +359,17 @@ def build_record(category, app, release):
     if package is None:
         return None, "Release 里没有 .hap 或 .app 资产"
 
-    version = version_of(release)
+    version = version_of(release) or release["tag_name"]
+    if version == "latest":
+        # brew 把 "latest" 留作保留字，写成字符串版本号会被 audit 判错。
+        version = None
     digest = digest_of(package)
     url = versioned_url(slug, release["tag_name"], package["name"], version)
     if url is None:
-        # tag 与资产名里都没有可回填的版本串，只能用 latest 跳转，它指向的 Release 必须含同名资产
-        version = None
-        url = f"{GITHUB_WEB}/{slug}/releases/latest/download/{urllib.parse.quote(package['name'], safe='')}"
+        # 没有可用的版本号时仍然写成明确的 tag 路径。写成 releases/latest/download
+        # 会在选中的是预发布时指向另一个 Release，那边没有同名资产。
+        tag_literal = urllib.parse.quote(release["tag_name"], safe="")
+        url = f"{GITHUB_WEB}/{slug}/releases/download/{tag_literal}/{urllib.parse.quote(package['name'], safe='')}"
 
     owner, repo_name = slug.split("/", 1)
     record = {
@@ -353,6 +390,33 @@ def build_record(category, app, release):
     record["name"] = name_of(app, record)
     record["desc"] = desc_of(app, record["token"])
     return record, None
+
+
+def render_download_url(record):
+    """把地址里的 #{version} 换成实际版本号，得到可以发请求的真实地址。"""
+    return record["url"].replace("#{version}", str(record["version"] or ""))
+
+
+# 每个条目最多试几个 Release。Release 可能已经把资产删掉，列表里还留着记录，
+# 光看 API 选不出来，所以对生成的地址发一次请求再定。限个数是为了别在坏仓库上耗太久。
+CANDIDATE_LIMIT = 5
+
+
+def pick_record(client, category, app, candidates):
+    """按优先级挑第一个下载地址确实能取到的 Release。
+
+    地址取不到时往下一个候选退，全部退完仍取不到就返回失败原因。
+    """
+    reason = "仓库没有可用的 Release"
+    for release in candidates[:CANDIDATE_LIMIT]:
+        record, why = build_record(category, app, release)
+        if record is None:
+            reason = why
+            continue
+        if client.url_ok(render_download_url(record)) is not False:
+            return record, None
+        reason = f"{release['tag_name']} 的安装包地址取不到"
+    return None, reason
 
 
 def cask_body(record):
@@ -399,16 +463,16 @@ def collect(entries, client):
             skipped.append((app.get("name", ""), "项目主页与下载页都不在 GitHub 上"))
             continue
         try:
-            release = client.best_release(slug)
+            candidates = client.release_candidates(slug)
         except RateLimitError:
             raise
         except ApiError as error:
             skipped.append((app.get("name", ""), f"读取 Release 失败：{error}"))
             continue
-        if release is None:
+        if not candidates:
             skipped.append((app.get("name", ""), "仓库没有可用的 Release"))
             continue
-        record, reason = build_record(category, app, release)
+        record, reason = pick_record(client, category, app, candidates)
         if record is None:
             skipped.append((app.get("name", ""), reason))
             continue
@@ -445,9 +509,12 @@ def write_readme(records, skipped, path, newline):
         "",
         "## 收录范围",
         "",
-        "只收录最新 Release 里带 `.hap` 或 `.app` 资产的条目。tag 或资产名里能回填版本号的，",
-        "写成 `version` 加 `#{version}` 形式的下载地址，两者总能对上才不会在升级时取错文件；",
-        "回填不了版本号的写成 `version :latest` 加 `releases/latest` 地址。",
+        "只收录最新 Release 里带 `.hap` 或 `.app` 资产的条目。地址写成带 `#{version}` 的形式，",
+        "版本号优先从 tag 或资产名里取，取不到时用 tag 本身，这样地址始终指向实际选中的",
+        "Release，不会因为 `releases/latest` 跳过预发布而取错文件。tag 恰好是 `latest` 时",
+        "（brew 的保留字）写成 `version :latest` 加明确的 tag 路径。",
+        "Release 按创建时间从新到旧挑选，同一时刻才让稳定版压过预发布；",
+        "挑选时会对下载地址发一次请求，取不到就退到下一个 Release。",
         "资产自带 sha256 时写进 `sha256 arm64_linux:`，取不到摘要的写成 `sha256 :no_check`。",
         "cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。",
         "",
