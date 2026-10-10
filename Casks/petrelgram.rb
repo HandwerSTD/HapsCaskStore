@@ -4,7 +4,7 @@ cask "petrelgram" do
 
   url "https://github.com/miramira8295/Petrelgram/releases/download/v#{version}/Petrelgram-1.5.2-unsigned.hap"
   name "Petrelgram"
-  desc "第三方✈鸿蒙版，基于 TDLib 的 Telegram 客户端，支持多账号与音视频通话"
+  desc "第三方鸿蒙版，基于 TDLib 的 Telegram 客户端，支持多账号与音视频通话"
   homepage "https://github.com/miramira8295/Petrelgram"
 
   livecheck do

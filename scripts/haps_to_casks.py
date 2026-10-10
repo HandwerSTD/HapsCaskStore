@@ -7,6 +7,7 @@ import sys
 import urllib.error
 import urllib.parse
 import urllib.request
+import unicodedata
 
 import yaml
 
@@ -271,10 +272,33 @@ def assign_tokens(records):
             record["token"] = f"{record['token']}-{record['token_index']}"
 
 
-def desc_of(app):
+def desc_of(app, token):
+    """上游的一句话说明。
+
+    brew 的 Desc 检查要求：不超过 80 字、不以冠词或 cask 名开头、首字母大写、
+    不以句号结尾、不含 Unicode 符号类字符（emoji）。
+    """
     desc = (app.get("desc") or "").strip().replace('"', "")
     desc = re.sub(r"\s+", " ", desc)
+    # 去掉 Unicode 符号类字符，例如“第三方✈鸿蒙版”里的飞机符号
+    desc = "".join(ch for ch in desc if unicodedata.category(ch) != "So")
+    desc = re.sub(r"\s+", " ", desc).strip()
     desc = desc.rstrip("。.，,、")
+    # 去掉开头的冠词，避免“Description shouldn't start with an article”
+    desc = re.sub(r"^(?:the|an?)\s+", "", desc, flags=re.IGNORECASE)
+    # 不以 cask 名开头，名字里的连字符在比对时忽略
+    loose = re.escape(token).replace(r"\-", r"[\s\-]?")
+    stripped = re.sub(rf"^{loose}\b", "", desc, count=1, flags=re.IGNORECASE)
+    if stripped != desc:
+        # 去掉名字后面跟着的连接成分，否则“Servo 是一个…”会剩下“是一个…”
+        desc = re.sub(r"^[\s:：,，、。]*[是为][\s:：,，、。]*", "", stripped)
+        if not desc:
+            desc = stripped
+    # 不以小写字母开头，iOS、iPhone、macOS 除外
+    if desc[:1].islower() and desc.split()[0] not in ("iOS", "iPhone", "macOS"):
+        desc = desc[:1].upper() + desc[1:]
+    if not desc:
+        desc = token
     if len(desc) > DESC_MAX_LENGTH:
         desc = desc[: DESC_MAX_LENGTH - 1] + "…"
     return desc
@@ -327,7 +351,7 @@ def build_record(category, app, release):
         "url": url,
     }
     record["name"] = name_of(app, record)
-    record["desc"] = desc_of(app)
+    record["desc"] = desc_of(app, record["token"])
     return record, None
 
 

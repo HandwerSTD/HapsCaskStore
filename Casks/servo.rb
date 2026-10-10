@@ -4,7 +4,7 @@ cask "servo" do
 
   url "https://github.com/servo/servo/releases/download/v#{version}/servo-aarch64-linux-ohos.hap"
   name "Servo"
-  desc "Servo 是一个用 Rust 语言编写的浏览器内核的浏览器"
+  desc "一个用 Rust 语言编写的浏览器内核的浏览器"
   homepage "https://github.com/servo/servo"
 
   livecheck do
