@@ -1,8 +1,8 @@
 cask "picacomic-ohos" do
-  version "4.8.8"
-  sha256 arm64_linux: "e1cbcbccd74669c94573ad831fe600d23d7b17036d77a2959c81e8744b338413"
+  version "4.8.3"
+  sha256 arm64_linux: "235d0deea76282bdb2146790a2da2b0efc953aebd20aa1518d783cdd148fdcb0"
 
-  url "https://github.com/nimmi114514/PicaComic_ohos/releases/download/v#{version}/entry-default-unsigned.hap"
+  url "https://github.com/nimmi114514/PicaComic_ohos/releases/download/v#{version}-beta3/entry-default-unsigned.hap"
   name "Pica Comic"
   desc "一款使用 Flutter 构建的多源漫画应用"
   homepage "https://github.com/nimmi114514/PicaComic_ohos"

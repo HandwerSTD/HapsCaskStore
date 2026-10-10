@@ -1,8 +1,8 @@
 cask "vhome-release" do
-  version "5.0.60"
-  sha256 arm64_linux: "7267e1bdf0a2aa561a451d6fa206fd83f5e8bb803023d5dd2c5b717bdf2e68e0"
+  version "5.0.112"
+  sha256 arm64_linux: "122f3e9995900715e805b976d4b4a7d34a6d379b73b120b3e001f9b9d80f49b3"
 
-  url "https://github.com/muleos/VHome-release/releases/download/v#{version}-beta/VHome-5.0.60-beta-unsigned.hap"
+  url "https://github.com/muleos/VHome-release/releases/download/v#{version}-beta/VHome-5.0.112-beta-unsigned.hap"
   name "VHome (vae＋)"
   desc "许嵩粉丝社区应用鸿蒙版，支持动态、音乐与互动"
   homepage "https://github.com/muleos/VHome-release"
@@ -16,5 +16,5 @@ cask "vhome-release" do
   depends_on :linux
   container type: :naked
 
-  ohos_app "VHome-5.0.60-beta-unsigned.hap"
+  ohos_app "VHome-5.0.112-beta-unsigned.hap"
 end

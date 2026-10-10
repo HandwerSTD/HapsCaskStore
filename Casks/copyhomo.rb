@@ -1,8 +1,8 @@
 cask "copyhomo" do
-  version "1.0.2"
-  sha256 arm64_linux: "3fc1e294ebaa6c7220c201ddc6d2a884312656ea534ea500350e0a6e548ae93d"
+  version "1.0.5"
+  sha256 arm64_linux: "227f38902d9115825a2354e05e3e5cb5ce834635138c56c1876bf5292930e437"
 
-  url "https://github.com/point258/copyhomo/releases/download/#{version}/1.0.2-api23%2B.hap"
+  url "https://github.com/point258/copyhomo/releases/download/#{version}/copyhomo1.0.5-23%2B.hap"
   name "拷贝漫画"
   desc "原生鸿蒙拷贝漫画客户端，支持手机与平板阅读"
   homepage "https://github.com/point258/copyhomo"
@@ -16,5 +16,5 @@ cask "copyhomo" do
   depends_on :linux
   container type: :naked
 
-  ohos_app "1.0.2-api23+.hap"
+  ohos_app "copyhomo1.0.5-23+.hap"
 end
