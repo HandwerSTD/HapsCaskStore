@@ -31,7 +31,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `bettbox` | 1.19.4 | Bettbox | `htoay/Bettbox` |
 | `bika-harmonyos` | 1.4.2 | 哔咔 | `LoMoCatAp/Bika-HarmonyOS` |
 | `collection-ohos` | 1.29.0 | 收藏 | `muleos/collection_ohos` |
-| `copyhomo` | 1.0.5.1 | 拷贝漫画 | `point258/copyhomo` |
+| `copyhomo` | 1.0.5.5 | 拷贝漫画 | `point258/copyhomo` |
 | `diplay-harmony` | 0.13.11 | DiPlay Harmony | `Tedfaraday/DiPlay-Harmony` |
 | `etohos` | 1.0.9 | Etohos | `collaborative-creation/etohos` |
 | `flclash-ohos` | 0.8.94 | FlClash | `tljk/FlClash-ohos` |
@@ -48,7 +48,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `kazumi` | 2.3.1 | Kazumi | `ErBWs/Kazumi` |
 | `linysbrowser-next` | 2.1.0 | 冲浪喵 | `awaLiny2333/LinysBrowser_NEXT` |
 | `lnga-harmony` | 1.2.6 | LNGA | `apap6628114/lnga_harmony` |
-| `lovelyflash-jmcomic-harmonyos` | 1.0.9 | JMComic | `LovelyFlash/JMComic-HarmonyOS` |
+| `lovelyflash-jmcomic-harmonyos` | 1.0.10 | JMComic | `LovelyFlash/JMComic-HarmonyOS` |
 | `mcb-ohos` | 1.2.0 | Minecraft Box | `lxdklp/MCB_OHOS` |
 | `melotopia-hmos` | 1.15.3 | Melotopia | `Chenlvin/Melotopia-HMOS` |
 | `miha-hm` | 1.1.5 | 鸿米家 | `MrCashmere/miha_hm` |
@@ -98,7 +98,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `niceleep` | 1.1.0 | 响入睡 | `qinshah/niceleep` |
 | `nipaplay-reload` | 1.11.9 | NipaPlay | `AimesSoft/NipaPlay-Reload` |
 | `ohentai` | 0.5.4 | Ohentai | `Ibukitofu/Ohentai` |
-| `petrelgram` | 1.5.2 | Petrelgram | `miramira8295/Petrelgram` |
+| `petrelgram` | 1.5.3 | Petrelgram | `miramira8295/Petrelgram` |
 | `picacomic-ohos` | 4.8.8 | Pica Comic | `nimmi114514/PicaComic_ohos` |
 | `pixez-flutter-ohos` | 0.9.110 | PixEz | `bgli100/pixez-flutter-ohos` |
 | `pokedex-next` | 1.0.0 | 宝可梦图鉴 | `Luxcis/Pokedex_Next` |
