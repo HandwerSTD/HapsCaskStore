@@ -3,33 +3,51 @@
 把 [Zitann/HarmonyOS-Haps](https://github.com/Zitann/HarmonyOS-Haps) 收录的 HarmonyOS 应用列表
 转换成 [Harmonybrew](https://atomgit.com/Harmonybrew/brew) 可用的 Homebrew cask。
 
-## 前置条件
+## 安装
 
-Harmonybrew 自带的版本不包含 cask 支持，`brew install --cask` 在默认安装下用不了。
-需要先打上 [HarmonyBrewCasks](https://gitcode.com/handwer/HarmonyBrewCasks) 的补丁，
-那个仓库提供的是一组 Homebrew 补丁与配套脚本，其中 0005 引入本仓库 cask 依赖的
-`ohos_app` stanza。下面的步骤都在 Harmonybrew 已经检出、且当前目录下有补丁仓库时执行：
+在装了 [Harmonybrew](https://atomgit.com/Harmonybrew/brew) 的鸿蒙设备上执行这一条：
+
+```sh
+wget -O - "https://raw.githubusercontent.com/HandwerSTD/HapsCaskStore/main/install.sh" | sh
+```
+
+脚本会先检测 brew 有没有 cask 能力（Harmonybrew 自带的版本不包含 cask 支持，
+`brew install --cask` 用不了）。检测方式是看补丁带来的 `ohos_app` stanza 在不在：
+
+- 已经在：跳过补丁，直接配置本仓库。
+- 不在：转而执行 [HarmonyBrewCasks](https://gitcode.com/handwer/HarmonyBrewCasks) 的一键安装，
+  打上那组补丁（其中 0005 引入 `ohos_app` stanza）并装好签名工具 `ohos-selfsign`，
+  然后继续配置本仓库。
+
+配置的部分是 `brew tap` 加 `brew trust`。已经打过 tap 的会改成 `git pull` 更新，不重复检出。
+重复跑同一条命令是安全的。
+
+`brew tap` 后面的名字是 `HandwerSTD/haps-cask-store`，不带 `homebrew-` 前缀：
+带地址的两参数形式直接用这个名字，实际检出目录是 `handwerstd/homebrew-haps-cask-store`。
+后面所有命令里的 tap 名字都要跟 `brew tap` 时用的这个一致。
+
+## 手动安装
+
+不想用一键命令的话分两步。
+
+先应用补丁，签名工具 `ohos-selfsign` 也在这里装：
 
 ```sh
 git clone https://gitcode.com/handwer/HarmonyBrewCasks.git
 cd HarmonyBrewCasks
-brew install ohos-sdk          # 签名工具，补丁 0003 需要
 sh ./tools/apply-patches.sh
 sh ./tools/check-patches.sh    # 确认补丁已落地
 ```
 
 补丁以提交形式落在 Homebrew 检出目录的 `main` 分支上，`brew update` 会在此之上
-`git rebase origin/main`，所以后续更新不会被丢掉。补丁的完整说明、涉及的文件以及
-回退方法都在该仓库的 README 里。
+`git rebase origin/main`，所以后续更新不会被丢掉。涉及的文件、完整说明以及回退方法
+都在该仓库的 README 里。
 
-## 安装
-
-先把本仓库加成 tap，再按名字安装。命令在装了 [Harmonybrew](https://atomgit.com/Harmonybrew/brew) 的鸿蒙设备上执行：
+再添加 tap：
 
 ```sh
 brew tap HandwerSTD/haps-cask-store https://github.com/HandwerSTD/HapsCaskStore.git
-brew trust HandwerSTD/haps-cask-store
-brew install --cask lnga-harmony
+brew trust --tap HandwerSTD/haps-cask-store
 ```
 
 三个命令的用途：
@@ -38,10 +56,13 @@ brew install --cask lnga-harmony
 | --- | --- |
 | `brew tap` | 把仓库检出到 tap 目录。两个参数的形式不预设仓库地址，所以地址要写全 |
 | `brew trust` | 非官方 tap 默认不被信任，不信任的话 `brew search --cask` 与 `brew casks` 会跳过本仓库 |
-| `brew install --cask` | 按 token 安装。tap 名字里的 `<user>` 部分由 `brew tap` 时的写法决定，后面的命令要跟着一致 |
+| `brew install --cask` | 按 token 安装 |
 
-`brew tap` 后面的名字是 `HandwerSTD/haps-cask-store`，不带 `homebrew-` 前缀：带地址的两参数形式直接用这个名字，
-而实际检出目录是 `handwerstd/homebrew-haps-cask-store`。所有命令里的 tap 名字必须写成 tap 时用的那个。
+## 安装应用
+
+```sh
+brew install --cask lnga-harmony
+```
 
 `ohos_app` 会把应用包复制到 `~/Download`，应用包本身由设备上的安装工具负责签名与安装，
 比如 [小白调试助手](https://github.com/likuai2010/auto-installer/releases/latest)：
@@ -68,6 +89,7 @@ brew uninstall --cask lnga-harmony
 
 | 路径 | 内容 |
 | --- | --- |
+| `install.sh` | 一键安装：确保 cask 能力，把本仓库加成 tap 并建立信任 |
 | `scripts/haps_to_casks.py` | 读取上游 `apps.yaml`，查询各仓库的 Release，生成 cask |
 | `Casks/` | 生成结果，每次运行整目录覆盖 |
 | `.github/workflows/sync-casks.yml` | 每天定时运行并提交变化，也可以手动触发 |
