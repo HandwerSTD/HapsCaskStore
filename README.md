@@ -3,6 +3,48 @@
 把 [Zitann/HarmonyOS-Haps](https://github.com/Zitann/HarmonyOS-Haps) 收录的 HarmonyOS 应用列表
 转换成 [Harmonybrew](https://atomgit.com/Harmonybrew/brew) 可用的 Homebrew cask。
 
+## 安装
+
+先把本仓库加成 tap，再按名字安装。命令在装了 [Harmonybrew](https://atomgit.com/Harmonybrew/brew) 的鸿蒙设备上执行：
+
+```sh
+brew tap HandwerSTD/caskstore https://github.com/HandwerSTD/HarmonybrewCaskStore.git
+brew trust HandwerSTD/caskstore
+brew install --cask lnga-harmony
+```
+
+三个命令的用途：
+
+| 命令 | 作用 |
+| --- | --- |
+| `brew tap` | 把仓库检出到 tap 目录。两个参数的形式不预设仓库地址，所以地址要写全 |
+| `brew trust` | 非官方 tap 默认不被信任，不信任的话 `brew search --cask` 与 `brew casks` 会跳过本仓库 |
+| `brew install --cask` | 按 token 安装。tap 名字里的 `<user>` 部分由 `brew tap` 时的写法决定，后面的命令要跟着一致 |
+
+`brew tap` 后面的名字是 `HandwerSTD/caskstore`，不带 `homebrew-` 前缀：带地址的两参数形式直接用这个名字，
+而实际检出目录是 `handwerstd/homebrew-caskstore`。所有命令里的 tap 名字必须写成 tap 时用的那个。
+
+`ohos_app` 会把应用包复制到 `~/Download`，应用包本身由设备上的安装工具负责签名与安装，
+比如 [小白调试助手](https://github.com/likuai2010/auto-installer/releases/latest)：
+
+```
+==> Installing HarmonyOS Application 'entry-default.hap' to '/data/.../Download/entry-default.hap'
+```
+
+可用 token 见 [`Casks/README.md`](Casks/README.md)。想一次装全部：
+
+```sh
+brew install --cask $(brew casks | grep '^handwerstd/')
+```
+
+卸载按同样的名字：
+
+```sh
+brew uninstall --cask lnga-harmony
+```
+
+`ref/` 里的上游列表只是转换脚本的输入参考，实际发布的是 `Casks/` 目录。
+
 ## 目录
 
 | 路径 | 内容 |
