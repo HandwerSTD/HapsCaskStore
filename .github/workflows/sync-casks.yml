@@ -1,0 +1,58 @@
+name: Sync casks
+
+on:
+  schedule:
+    - cron: "17 20 * * *"
+      timezone: "Asia/Shanghai"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-casks
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip pyyaml
+
+      - name: Generate the casks
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/haps_to_casks.py --output Casks --token "$GITHUB_TOKEN"
+
+      - name: Summarize the diff
+        run: |
+          git add --all -- Casks
+          {
+            echo "### 生成的 cask"
+            echo
+            echo '```'
+            git diff --cached --stat -- Casks
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit the changes
+        run: |
+          if [ -z "$(git status --porcelain -- Casks)" ]; then
+            echo "cask 没有变化"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Casks
+          git commit -m "同步 $(date -u +%Y-%m-%d) 的上游应用列表"
+          git push
