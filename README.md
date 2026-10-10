@@ -27,8 +27,8 @@ sh ./tools/check-patches.sh    # 确认补丁已落地
 先把本仓库加成 tap，再按名字安装。命令在装了 [Harmonybrew](https://atomgit.com/Harmonybrew/brew) 的鸿蒙设备上执行：
 
 ```sh
-brew tap HandwerSTD/caskstore https://github.com/HandwerSTD/HarmonybrewCaskStore.git
-brew trust HandwerSTD/caskstore
+brew tap HandwerSTD/haps-cask-store https://github.com/HandwerSTD/HapsCaskStore.git
+brew trust HandwerSTD/haps-cask-store
 brew install --cask lnga-harmony
 ```
 
@@ -40,8 +40,8 @@ brew install --cask lnga-harmony
 | `brew trust` | 非官方 tap 默认不被信任，不信任的话 `brew search --cask` 与 `brew casks` 会跳过本仓库 |
 | `brew install --cask` | 按 token 安装。tap 名字里的 `<user>` 部分由 `brew tap` 时的写法决定，后面的命令要跟着一致 |
 
-`brew tap` 后面的名字是 `HandwerSTD/caskstore`，不带 `homebrew-` 前缀：带地址的两参数形式直接用这个名字，
-而实际检出目录是 `handwerstd/homebrew-caskstore`。所有命令里的 tap 名字必须写成 tap 时用的那个。
+`brew tap` 后面的名字是 `HandwerSTD/haps-cask-store`，不带 `homebrew-` 前缀：带地址的两参数形式直接用这个名字，
+而实际检出目录是 `handwerstd/homebrew-haps-cask-store`。所有命令里的 tap 名字必须写成 tap 时用的那个。
 
 `ohos_app` 会把应用包复制到 `~/Download`，应用包本身由设备上的安装工具负责签名与安装，
 比如 [小白调试助手](https://github.com/likuai2010/auto-installer/releases/latest)：
@@ -53,7 +53,7 @@ brew install --cask lnga-harmony
 可用 token 见 [`Casks/README.md`](Casks/README.md)。想一次装全部：
 
 ```sh
-brew install --cask $(brew casks | grep '^handwerstd/')
+brew install --cask $(brew casks | grep '^handwerstd/haps-cask-store/')
 ```
 
 卸载按同样的名字：

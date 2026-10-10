@@ -5,7 +5,7 @@
 运行时整目录覆盖，手工改动会在下次生成时丢失。新增或修改条目请改上游的 `apps.yaml`。
 
 每个 cask 都用 `ohos_app` 把 HarmonyOS 应用包复制到 `~/Download`，
-配合 [HarmonyBrewCaskStore](https://atomgit.com/handwer/HarmonyBrewCaskStore) 里的 brew 适配补丁使用。
+配合 [HarmonyBrewCasks](https://gitcode.com/handwer/HarmonyBrewCasks) 里的 brew 适配补丁使用。
 
 ## 收录范围
 
