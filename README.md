@@ -3,6 +3,25 @@
 把 [Zitann/HarmonyOS-Haps](https://github.com/Zitann/HarmonyOS-Haps) 收录的 HarmonyOS 应用列表
 转换成 [Harmonybrew](https://atomgit.com/Harmonybrew/brew) 可用的 Homebrew cask。
 
+## 前置条件
+
+Harmonybrew 自带的版本不包含 cask 支持，`brew install --cask` 在默认安装下用不了。
+需要先打上 [HarmonyBrewCasks](https://gitcode.com/handwer/HarmonyBrewCasks) 的补丁，
+那个仓库提供的是一组 Homebrew 补丁与配套脚本，其中 0005 引入本仓库 cask 依赖的
+`ohos_app` stanza。下面的步骤都在 Harmonybrew 已经检出、且当前目录下有补丁仓库时执行：
+
+```sh
+git clone https://gitcode.com/handwer/HarmonyBrewCasks.git
+cd HarmonyBrewCasks
+brew install ohos-sdk          # 签名工具，补丁 0003 需要
+sh ./tools/apply-patches.sh
+sh ./tools/check-patches.sh    # 确认补丁已落地
+```
+
+补丁以提交形式落在 Homebrew 检出目录的 `main` 分支上，`brew update` 会在此之上
+`git rebase origin/main`，所以后续更新不会被丢掉。补丁的完整说明、涉及的文件以及
+回退方法都在该仓库的 README 里。
+
 ## 安装
 
 先把本仓库加成 tap，再按名字安装。命令在装了 [Harmonybrew](https://atomgit.com/Harmonybrew/brew) 的鸿蒙设备上执行：
