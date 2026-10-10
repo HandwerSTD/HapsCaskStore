@@ -1,8 +1,8 @@
 cask "nipaplay-reload" do
-  version "1.11.6"
-  sha256 arm64_linux: "52f74325027a200fd1d43137ac678e584e495e257a377dd77890d0e543d55234"
+  version "1.11.9"
+  sha256 arm64_linux: "fc6fab86777f35fbd746ebb789c8bb8c20f8832df9ae3239de5dad2f1f6238eb"
 
-  url "https://github.com/AimesSoft/NipaPlay-Reload/releases/download/v#{version}/NipaPlay-1.11.6-HarmonyOS-arm64-signed.hap"
+  url "https://github.com/AimesSoft/NipaPlay-Reload/releases/download/v#{version}/NipaPlay-1.11.9-HarmonyOS-arm64-signed.hap"
   name "NipaPlay"
   desc "二次元媒体管理器，支持弹幕播放与媒体库集成"
   homepage "https://github.com/AimesSoft/NipaPlay-Reload"
@@ -16,5 +16,5 @@ cask "nipaplay-reload" do
   depends_on :linux
   container type: :naked
 
-  ohos_app "NipaPlay-1.11.6-HarmonyOS-arm64-signed.hap"
+  ohos_app "NipaPlay-1.11.9-HarmonyOS-arm64-signed.hap"
 end

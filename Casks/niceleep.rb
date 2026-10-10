@@ -1,6 +1,6 @@
 cask "niceleep" do
-  version "0.9.9"
-  sha256 arm64_linux: "5b4aaa03d24565c8bbe375cc590220be0261374cfa4f626e9bcb68a2bb4edd95"
+  version "1.1.0"
+  sha256 arm64_linux: "dd8073c863708d5d8ce2c93488dbaab9dcbd62d37ef2023a6c49911d791fa688"
 
   url "https://github.com/qinshah/niceleep/releases/download/v#{version}/entry-default-signed.hap"
   name "响入睡"
