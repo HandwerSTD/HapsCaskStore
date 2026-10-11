@@ -1,8 +1,8 @@
 cask "piliplus" do
   version "2.1.5"
-  sha256 arm64_linux: "aa7f3ef1674dc522d2e6f1b4de2c0808be6365f2bf63f0d2bd96e48905e25f40"
+  sha256 arm64_linux: "e03c149d8b777cda7b467f4b595dc9e9501c9a029bc54cb3a2cb2df0846074e9"
 
-  url "https://github.com/dev4harmony/PiliPlus/releases/download/#{version}-ohos/PiliPlus_ohos_2.1.5-ohos_unsigned.hap"
+  url "https://github.com/dev4harmony/PiliPlus/releases/download/#{version}-ohos-2/PiliPlus_ohos_2.1.5-ohos-2_unsigned.hap"
   name "PiliPlus"
   desc "BiliBili第三方客户端"
   homepage "https://github.com/dev4harmony/PiliPlus"
@@ -16,5 +16,5 @@ cask "piliplus" do
   depends_on :linux
   container type: :naked
 
-  ohos_app "PiliPlus_ohos_2.1.5-ohos_unsigned.hap"
+  ohos_app "PiliPlus_ohos_2.1.5-ohos-2_unsigned.hap"
 end

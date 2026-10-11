@@ -1,6 +1,6 @@
 cask "homenapod" do
-  version "1.0.15"
-  sha256 arm64_linux: "6335f5eec6487076da7461b228857bd83a118fcfb4585599c8097021c554cf20"
+  version "1.0.17"
+  sha256 arm64_linux: "caffa5e36ca5035120dc67eb452596ee305bf3b71557cc1a1cd43fbcfeaf70f9"
 
   url "https://github.com/TomoeMami/HomenaPod/releases/download/v#{version}/entry-default-unsigned.hap"
   name "HomenaPod"
