@@ -59,7 +59,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `pilinara` | 2.1.5.1 | PiliNara | `dev4harmony/PiliNara` |
 | `piliplus` | 2.1.5 | PiliPlus | `dev4harmony/PiliPlus` |
 | `piliplusx` | 1.1.6.4 | PiliPlusX | `cnctem/PiliPlusX` |
-| `quietstart` | 1.2.2 | 轻启 | `thx853068675-dev/quietstart` |
+| `quietstart` | 1.2.4 | 轻启 | `thx853068675-dev/quietstart` |
 | `s1-orange` | 1.4.6 | S1 Orange | `wly5556/S1-Orange` |
 | `tailscale-ohos` | 0.3.19 | Tailscale | `flypigJ/Tailscale-OHOS` |
 | `vhome-release` | 2.6.14 | VHome (vae＋) | `muleos/VHome-release` |

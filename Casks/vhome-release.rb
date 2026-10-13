@@ -1,6 +1,6 @@
 cask "vhome-release" do
   version "2.6.14"
-  sha256 arm64_linux: "128b855cf7ab613678d1f5fc3406bd131feed995ab7bf166cc1b9b3c320ded72"
+  sha256 arm64_linux: "f06be7e1d355bfb1a2daca253aedcca6b56a0160b1592b5a75bde2ec697be752"
 
   url "https://github.com/muleos/VHome-release/releases/download/v#{version}/VHome-2.6.14.hap"
   name "VHome (vae＋)"
