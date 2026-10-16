@@ -28,8 +28,8 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `amcl` | 1.0.5 | AMCL | `LZZLHY/amcl` |
 | `anich` | 1.5.27 | AniCh | `Sle2p/AniCh` |
 | `audiobookshelf-harmonyos` | 2.3.0 | Harmshelf | `shanyan-wcx/Audiobookshelf-HarmonyOS` |
-| `bettbox` | 1.19.4 | Bettbox | `htoay/Bettbox` |
-| `bika-harmonyos` | 1.4.3 | 哔咔 | `LoMoCatAp/Bika-HarmonyOS` |
+| `bettbox` | 1.19.5 | Bettbox | `htoay/Bettbox` |
+| `bika-harmonyos` | 1.4.5 | 哔咔 | `LoMoCatAp/Bika-HarmonyOS` |
 | `collection-ohos` | 1.29.0 | 收藏 | `muleos/collection_ohos` |
 | `copyhomo` | 1.2.1 | 拷贝漫画 | `point258/copyhomo` |
 | `diplay-harmony` | 0.13.11 | DiPlay Harmony | `Tedfaraday/DiPlay-Harmony` |
@@ -48,7 +48,8 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `kazumi` | 2.3.1 | Kazumi | `ErBWs/Kazumi` |
 | `linysbrowser-next` | 2.1.0 | 冲浪喵 | `awaLiny2333/LinysBrowser_NEXT` |
 | `lnga-harmony` | 1.2.6 | LNGA | `apap6628114/lnga_harmony` |
-| `lovelyflash-jmcomic-harmonyos` | 1.0.11 | JMComic | `LovelyFlash/JMComic-HarmonyOS` |
+| `lovelyflash-jmcomic-harmonyos` | 1.0.12 | JMComic | `LovelyFlash/JMComic-HarmonyOS` |
+| `lvlian-view-hm` | 1.0.9 | 联文件 | `fhf2022/lvlian-view-hm` |
 | `lx-music-harmony` | 1.0.0 | 洛雪音乐 | `k-brother/lx-music-harmony` |
 | `mcb-ohos` | 1.2.0 | Minecraft Box | `lxdklp/MCB_OHOS` |
 | `melotopia-hmos` | 1.15.3 | Melotopia | `Chenlvin/Melotopia-HMOS` |
@@ -61,7 +62,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `pilinara` | 2.1.5.1 | PiliNara | `dev4harmony/PiliNara` |
 | `piliplus` | 2.1.5 | PiliPlus | `dev4harmony/PiliPlus` |
 | `piliplusx` | 1.1.6.4 | PiliPlusX | `cnctem/PiliPlusX` |
-| `quietstart` | 1.2.4 | 轻启 | `thx853068675-dev/quietstart` |
+| `quietstart` | 1.2.6 | 轻启 | `thx853068675-dev/quietstart` |
 | `s1-orange` | 1.4.6 | S1 Orange | `wly5556/S1-Orange` |
 | `tailscale-ohos` | 0.3.19 | Tailscale | `flypigJ/Tailscale-OHOS` |
 | `vhome-release` | 2.6.14 | VHome (vae＋) | `muleos/VHome-release` |
@@ -101,7 +102,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `niceleep` | 1.1.0 | 响入睡 | `qinshah/niceleep` |
 | `nipaplay-reload` | 1.11.9 | NipaPlay | `AimesSoft/NipaPlay-Reload` |
 | `ohentai` | 0.5.4 | Ohentai | `Ibukitofu/Ohentai` |
-| `petrelgram` | 1.5.3 | Petrelgram | `miramira8295/Petrelgram` |
+| `petrelgram` | 1.5.4 | Petrelgram | `miramira8295/Petrelgram` |
 | `picacomic-ohos` | 4.8.8 | Pica Comic | `nimmi114514/PicaComic_ohos` |
 | `pixez-flutter-ohos` | 0.9.110 | PixEz | `bgli100/pixez-flutter-ohos` |
 | `pokedex-next` | 1.0.0 | 宝可梦图鉴 | `Luxcis/Pokedex_Next` |
@@ -121,7 +122,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `servo` | 0.7.0 | Servo | `servo/servo` |
 | `vlc-qt6-ohos` | 3.0.21 | VLC播放器 | `Aloereed/vlc-qt6-ohos` |
 
-合计 86 个 cask，未收录 23 个条目。
+合计 87 个 cask，未收录 23 个条目。
 
 ### 未收录的条目
 
