@@ -1,8 +1,8 @@
 cask "nekobox4harmony" do
-  version "2.0.2"
-  sha256 arm64_linux: "4bf40f1dc33b0723fa886008d309d5dc557ec49893ed2a4af0fd0f1c75361437"
+  version "2.1.8"
+  sha256 arm64_linux: "2cced18b4fead56b07b62fdb8c85d597414bcb39c57c9994acdd5f8cfcde959f"
 
-  url "https://github.com/xiaoli8571/NekoBox4Harmony/releases/download/v#{version}/NekoBox4Harmony-2.0.2-unsigned.hap"
+  url "https://github.com/xiaoli8571/NekoBox4Harmony/releases/download/v#{version}/NekoBox4Harmony-2.1.8-unsigned.hap"
   name "NekoBox"
   desc "基于sing-box内核的鸿蒙VPN客户端，支持多协议与订阅"
   homepage "https://github.com/xiaoli8571/NekoBox4Harmony"
@@ -16,5 +16,5 @@ cask "nekobox4harmony" do
   depends_on :linux
   container type: :naked
 
-  ohos_app "NekoBox4Harmony-2.0.2-unsigned.hap"
+  ohos_app "NekoBox4Harmony-2.1.8-unsigned.hap"
 end

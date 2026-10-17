@@ -1,8 +1,8 @@
 cask "next2v" do
-  version "1.0.10"
-  sha256 arm64_linux: "6f2b6165101aef7b9bff8bd24429b04cc007ae4c61c1ef26b4eb8885ce7df1ee"
+  version "1.0.11"
+  sha256 arm64_linux: "edd26bf6c71b3da62af15c03cb48d6e49d6e424ff65ba239e2299038ca397752"
 
-  url "https://github.com/honjow/Next2V/releases/download/v#{version}/Next2V_1.0.10_ohos-release-unsigned.hap"
+  url "https://github.com/honjow/Next2V/releases/download/v#{version}/Next2V_1.0.11_ohos-release-unsigned.hap"
   name "Next2V"
   desc "一款面向 HarmonyOS 的原生 V2EX 第三方客户端，支持主题浏览、回复发帖、节点发现与搜索"
   homepage "https://github.com/honjow/Next2V"
@@ -16,5 +16,5 @@ cask "next2v" do
   depends_on :linux
   container type: :naked
 
-  ohos_app "Next2V_1.0.10_ohos-release-unsigned.hap"
+  ohos_app "Next2V_1.0.11_ohos-release-unsigned.hap"
 end
