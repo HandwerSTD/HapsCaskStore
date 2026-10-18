@@ -39,7 +39,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `hapapp` | 1.7.4 | ClashBox | `xiaobaigroup/hapapp` |
 | `hapstore` | 1.0.0 | HapStore | `zhailinlang/hapstore` |
 | `harmonic` | 2.1.7 | Harmonic | `shanyan-wcx/Harmonic` |
-| `harmonyx` | 3.0.0 | Harmony X | `haohaoai0/HarmonyX` |
+| `harmonyx` | 3.1.0 | Harmony X | `haohaoai0/HarmonyX` |
 | `hlib` | 1.0.1 | 海阅 | `LZZLHY/hlib` |
 | `home-cloud-shield` | 0.1.0 | 栖云盾 | `Tlntin/home-cloud-shield` |
 | `homl` | 1.1.0 | HOML启动器 | `xiaobaigroup/HOML` |
@@ -59,10 +59,10 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `neriplayer-harmonyos` | 1.4.0 | 音理音理! | `suyunxing/NeriPlayer-HarmonyOS` |
 | `nextn` | 1.0.7 | NextN | `erosTeam/NextN` |
 | `ohsidian` | latest | OHsidian | `HanversionOvO/OHSidian` |
-| `pilinara` | 2.1.5.1 | PiliNara | `dev4harmony/PiliNara` |
-| `piliplus` | 2.1.5 | PiliPlus | `dev4harmony/PiliPlus` |
+| `pilinara` | 2.1.6.1 | PiliNara | `dev4harmony/PiliNara` |
+| `piliplus` | 2.1.6.2 | PiliPlus | `dev4harmony/PiliPlus` |
 | `piliplusx` | 1.1.6.4 | PiliPlusX | `cnctem/PiliPlusX` |
-| `quietstart` | 1.2.6 | 轻启 | `thx853068675-dev/quietstart` |
+| `quietstart` | 1.2.7 | 轻启 | `thx853068675-dev/quietstart` |
 | `s1-orange` | 1.4.6 | S1 Orange | `wly5556/S1-Orange` |
 | `tailscale-ohos` | 0.3.19 | Tailscale | `flypigJ/Tailscale-OHOS` |
 | `vhome-release` | 2.6.14 | VHome (vae＋) | `muleos/VHome-release` |
@@ -98,12 +98,12 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `neon-ohos` | 1.0.0 | Neon | `shokakucarrier/neon-ohos` |
 | `next2v` | 1.0.11 | Next2V | `honjow/Next2V` |
 | `nexte` | 1.3.6 | NextE | `erosTeam/NextE` |
-| `nexus-vpn-harmonyos` | 0.3.1 | Nexus | `xiaoli8571/Nexus-VPN-HarmonyOS` |
+| `nexus-vpn-harmonyos` | 0.4.0 | Nexus | `xiaoli8571/Nexus-VPN-HarmonyOS` |
 | `niceleep` | 1.1.0 | 响入睡 | `qinshah/niceleep` |
 | `nipaplay-reload` | 1.11.9 | NipaPlay | `AimesSoft/NipaPlay-Reload` |
 | `ohentai` | 0.5.4 | Ohentai | `Ibukitofu/Ohentai` |
 | `petrelgram` | 1.5.4 | Petrelgram | `miramira8295/Petrelgram` |
-| `picacomic-ohos` | 4.8.8 | Pica Comic | `nimmi114514/PicaComic_ohos` |
+| `picacomic-ohos` | 5.0.0 | Pica Comic | `nimmi114514/PicaComic_ohos` |
 | `pixez-flutter-ohos` | 0.9.110 | PixEz | `bgli100/pixez-flutter-ohos` |
 | `pokedex-next` | 1.0.0 | 宝可梦图鉴 | `Luxcis/Pokedex_Next` |
 | `shuati` | ShuaTi | 刷题宝 | `xiaomoHM/ShuaTi` |

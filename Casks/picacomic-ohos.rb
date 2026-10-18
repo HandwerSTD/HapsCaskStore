@@ -1,6 +1,6 @@
 cask "picacomic-ohos" do
-  version "4.8.8"
-  sha256 arm64_linux: "e1cbcbccd74669c94573ad831fe600d23d7b17036d77a2959c81e8744b338413"
+  version "5.0.0"
+  sha256 arm64_linux: "c5f3ec04bfca096039e5f4eaa0a36a2e3687a851d12ab62079e79344bc338389"
 
   url "https://github.com/nimmi114514/PicaComic_ohos/releases/download/v#{version}/entry-default-unsigned.hap"
   name "Pica Comic"
