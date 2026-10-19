@@ -45,7 +45,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `homl` | 1.1.0 | HOML启动器 | `xiaobaigroup/HOML` |
 | `hx360e` | 1.0.2 | HX360E | `1440196924/HX360E` |
 | `jellyfin-harmonyos` | 1.0.4 | JellyFin | `chashaochang/JellyFin_HarmonyOS` |
-| `kazumi` | 2.3.1 | Kazumi | `ErBWs/Kazumi` |
+| `kazumi` | 2.3.9 | Kazumi | `ErBWs/Kazumi` |
 | `linysbrowser-next` | 2.1.0 | 冲浪喵 | `awaLiny2333/LinysBrowser_NEXT` |
 | `lnga-harmony` | 1.2.6 | LNGA | `apap6628114/lnga_harmony` |
 | `lovelyflash-jmcomic-harmonyos` | 1.1.0 | JMComic | `LovelyFlash/JMComic-HarmonyOS` |
@@ -53,7 +53,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `lx-music-harmony` | 1.0.0 | 洛雪音乐 | `k-brother/lx-music-harmony` |
 | `mcb-ohos` | 1.2.0 | Minecraft Box | `lxdklp/MCB_OHOS` |
 | `melotopia-hmos` | 1.15.3 | Melotopia | `Chenlvin/Melotopia-HMOS` |
-| `miha-hm` | 1.1.5 | 鸿米家 | `MrCashmere/miha_hm` |
+| `miha-hm` | 1.1.9 | 鸿米家 | `MrCashmere/miha_hm` |
 | `mindustryark` | 1.3.3.2 | MindustryArk | `haohandc/MindustryArk` |
 | `mr` | 2026-09-12 | MR | `DandanLLab/mr` |
 | `neriplayer-harmonyos` | 1.4.0 | 音理音理! | `suyunxing/NeriPlayer-HarmonyOS` |
@@ -83,7 +83,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `calculatorx` | 1.6.5 | CalculatorX | `StartYR/CalculatorX` |
 | `catpawopen` | 2.0.3 | 影视猫 | `CatPawApp/CatPawOpen` |
 | `ecohub-for-ohos` | 1.4.1 | EcoHub | `fe-spark/EcoHub-for-OHOS` |
-| `fmphoto` | 1.4.2.9 | 飞马相册 | `jonas-pi/FMphoto` |
+| `fmphoto` | 1.4.2.10 | 飞马相册 | `jonas-pi/FMphoto` |
 | `freshrss-harmony` | 2.34 | FreshRSS | `wtronfi/FreshRSS-Harmony` |
 | `harflix` | 1.0.6 | Harflix | `Actrlq/Harflix` |
 | `harmony-kslmkf-karing-hap` | 1.11.0 | Karing | `ks-lm-kf/harmony-kslmkf-karing-hap` |
@@ -98,13 +98,13 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `neon-ohos` | 1.0.0 | Neon | `shokakucarrier/neon-ohos` |
 | `next2v` | 1.0.11 | Next2V | `honjow/Next2V` |
 | `nexte` | 1.3.6 | NextE | `erosTeam/NextE` |
-| `nexus-vpn-harmonyos` | 0.4.0 | Nexus | `xiaoli8571/Nexus-VPN-HarmonyOS` |
+| `nexus-vpn-harmonyos` | 0.4.2 | Nexus | `xiaoli8571/Nexus-VPN-HarmonyOS` |
 | `niceleep` | 1.1.0 | 响入睡 | `qinshah/niceleep` |
 | `nipaplay-reload` | 1.11.9 | NipaPlay | `AimesSoft/NipaPlay-Reload` |
 | `ohentai` | 0.5.4 | Ohentai | `Ibukitofu/Ohentai` |
 | `petrelgram` | 1.5.4 | Petrelgram | `miramira8295/Petrelgram` |
 | `picacomic-ohos` | 5.0.0 | Pica Comic | `nimmi114514/PicaComic_ohos` |
-| `pixez-flutter-ohos` | 0.9.110 | PixEz | `bgli100/pixez-flutter-ohos` |
+| `pixez-flutter-ohos` | 0.9.111 | PixEz | `bgli100/pixez-flutter-ohos` |
 | `pokedex-next` | 1.0.0 | 宝可梦图鉴 | `Luxcis/Pokedex_Next` |
 | `shuati` | ShuaTi | 刷题宝 | `xiaomoHM/ShuaTi` |
 | `soc-search` | 1.0.25 | soc-search | `Amview/soc-search` |
@@ -139,7 +139,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | Moonlight | 项目主页与下载页都不在 GitHub 上 |
 | OpenTwit | 仓库没有可用的 Release |
 | Anx Reader | Release 里没有 .hap 或 .app 资产 |
-| Obsidian | Release 里没有 .hap 或 .app 资产 |
+| Obsidian | 仓库没有可用的 Release |
 | Kelivo | Release 里没有 .hap 或 .app 资产 |
 | 存好 | 仓库没有可用的 Release |
 | Scrcpy | Release 里没有 .hap 或 .app 资产 |

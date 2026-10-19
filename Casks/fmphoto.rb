@@ -1,6 +1,6 @@
 cask "fmphoto" do
-  version "1.4.2.9"
-  sha256 arm64_linux: "023edde841f025d67f116f92bd769965eec456570520e2e86521429ae4b3567b"
+  version "1.4.2.10"
+  sha256 arm64_linux: "c3b9533b6cecec38933f5146f9e9f2230a41ba0536f1bcfc5bd61549e772a9a1"
 
   url "https://github.com/jonas-pi/FMphoto/releases/download/v#{version}/entry-default-unsigned.hap"
   name "飞马相册"

@@ -1,8 +1,8 @@
 cask "miha-hm" do
-  version "1.1.5"
-  sha256 arm64_linux: "36e1458478e629baf58e975a2824a5730c954103bf6c7d715813dc0cbc836415"
+  version "1.1.9"
+  sha256 arm64_linux: "463bfc4d78a23a2df511ba458656246b2a9ebfffe0fa553347bcbe385a66288c"
 
-  url "https://github.com/MrCashmere/miha_hm/releases/download/v#{version}/1.1.5-OS.hap"
+  url "https://github.com/MrCashmere/miha_hm/releases/download/v#{version}/1.1.9-release-unsigned.hap"
   name "鸿米家"
   desc "基于鸿蒙NEXT原生开发的小米米家设备控制应用"
   homepage "https://github.com/MrCashmere/miha_hm"
@@ -16,5 +16,5 @@ cask "miha-hm" do
   depends_on :linux
   container type: :naked
 
-  ohos_app "1.1.5-OS.hap"
+  ohos_app "1.1.9-release-unsigned.hap"
 end
