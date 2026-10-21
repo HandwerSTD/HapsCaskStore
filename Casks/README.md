@@ -34,19 +34,19 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `copyhomo` | 1.2.1 | 拷贝漫画 | `point258/copyhomo` |
 | `diplay-harmony` | 0.13.11 | DiPlay Harmony | `Tedfaraday/DiPlay-Harmony` |
 | `etohos` | 1.0.9 | Etohos | `collaborative-creation/etohos` |
-| `flclash-ohos` | 0.8.94 | FlClash | `tljk/FlClash-ohos` |
+| `flclash-ohos` | 0.8.96 | FlClash | `tljk/FlClash-ohos` |
 | `hap-installer` | 1.0.0 | HapInstaller | `LMV475/hap-installer` |
 | `hapapp` | 1.7.4 | ClashBox | `xiaobaigroup/hapapp` |
 | `hapstore` | 1.0.0 | HapStore | `zhailinlang/hapstore` |
 | `harmonic` | 2.1.7 | Harmonic | `shanyan-wcx/Harmonic` |
-| `harmonyx` | 3.2.0 | Harmony X | `haohaoai0/HarmonyX` |
+| `harmonyx` | 3.3.0 | Harmony X | `haohaoai0/HarmonyX` |
 | `hlib` | 1.0.1 | 海阅 | `LZZLHY/hlib` |
 | `home-cloud-shield` | 0.1.0 | 栖云盾 | `Tlntin/home-cloud-shield` |
 | `homl` | 1.1.0 | HOML启动器 | `xiaobaigroup/HOML` |
 | `hx360e` | 1.0.2 | HX360E | `1440196924/HX360E` |
 | `jellyfin-harmonyos` | 1.0.4 | JellyFin | `chashaochang/JellyFin_HarmonyOS` |
 | `kazumi` | 2.3.9 | Kazumi | `ErBWs/Kazumi` |
-| `linysbrowser-next` | 2.1.0 | 冲浪喵 | `awaLiny2333/LinysBrowser_NEXT` |
+| `linysbrowser-next` | 2.1.1 | 冲浪喵 | `awaLiny2333/LinysBrowser_NEXT` |
 | `lnga-harmony` | 1.2.6 | LNGA | `apap6628114/lnga_harmony` |
 | `lovelyflash-jmcomic-harmonyos` | 1.1.0 | JMComic | `LovelyFlash/JMComic-HarmonyOS` |
 | `lvlian-view-hm` | 1.0.9 | 联文件 | `fhf2022/lvlian-view-hm` |
@@ -62,16 +62,16 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `pilinara` | 2.1.6.1 | PiliNara | `dev4harmony/PiliNara` |
 | `piliplus` | 2.1.6.2 | PiliPlus | `dev4harmony/PiliPlus` |
 | `piliplusx` | 1.1.6.4 | PiliPlusX | `cnctem/PiliPlusX` |
-| `quietstart` | 1.2.7 | 轻启 | `thx853068675-dev/quietstart` |
+| `quietstart` | 1.2.8 | 轻启 | `thx853068675-dev/quietstart` |
 | `s1-orange` | 1.4.6 | S1 Orange | `wly5556/S1-Orange` |
 | `tailscale-ohos` | 0.3.19 | Tailscale | `flypigJ/Tailscale-OHOS` |
 | `vhome-release` | 2.6.14 | VHome (vae＋) | `muleos/VHome-release` |
 | `videojx` | HM | 影视链 | `xiaomoHM/videoJX` |
 | `winehua` | 1.0.31 | 万花 | `winehua/WineHua` |
 | `wpixelgram-for-harmonyos` | 0.1.0 | Wpixelgram | `1055235342/Wpixelgram-for-HarmonyOS` |
-| `yourpipe` | 0.6.0-1000029 | YourPipe | `Ember5843/YourPipe` |
+| `yourpipe` | 0.7.0-1000030 | YourPipe | `Ember5843/YourPipe` |
 | `yuanchu-tec-jmcomic-harmonyos` | 1.0.10 | JMComic | `YuanChu-Tec/JMComic-HarmonyOS` |
-| `zhihu-plus-plus-hmos` | 0.5.8 | 知乎++ | `zhuoyi233/zhihu-plus-plus-HMOS` |
+| `zhihu-plus-plus-hmos` | 0.5.9 | 知乎++ | `zhuoyi233/zhihu-plus-plus-HMOS` |
 
 ### 鸿蒙手机/平板
 
@@ -98,7 +98,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `neon-ohos` | 1.0.0 | Neon | `shokakucarrier/neon-ohos` |
 | `next2v` | 1.0.11 | Next2V | `honjow/Next2V` |
 | `nexte` | 1.3.6 | NextE | `erosTeam/NextE` |
-| `nexus-vpn-harmonyos` | 0.4.2 | Nexus | `xiaoli8571/Nexus-VPN-HarmonyOS` |
+| `nexus-vpn-harmonyos` | 0.4.3 | Nexus | `xiaoli8571/Nexus-VPN-HarmonyOS` |
 | `niceleep` | 1.1.0 | 响入睡 | `qinshah/niceleep` |
 | `nipaplay-reload` | 1.11.9 | NipaPlay | `AimesSoft/NipaPlay-Reload` |
 | `ohentai` | 0.5.4 | Ohentai | `Ibukitofu/Ohentai` |

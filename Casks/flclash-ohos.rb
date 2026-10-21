@@ -1,8 +1,8 @@
 cask "flclash-ohos" do
-  version "0.8.94"
-  sha256 arm64_linux: "a04f700caaceb4e97f3eff63ded83f7226b3e12889286b5e8e300b5472fdbb02"
+  version "0.8.96"
+  sha256 arm64_linux: "ae49f90f0fe8ae2fc5ecbbb430077cfacdd3e7dbaddf62756710325fb7c1b88d"
 
-  url "https://github.com/tljk/FlClash-ohos/releases/download/v#{version}%2B2026091802/FlClash-0.8.94%2B2026091802-ohos.hap"
+  url "https://github.com/tljk/FlClash-ohos/releases/download/v#{version}%2B2026102101/FlClash-0.8.96%2B2026102101-ohos.hap"
   name "FlClash"
   desc "基于ClashMeta的多平台代理客户端"
   homepage "https://github.com/tljk/FlClash-ohos"
@@ -16,5 +16,5 @@ cask "flclash-ohos" do
   depends_on :linux
   container type: :naked
 
-  ohos_app "FlClash-0.8.94+2026091802-ohos.hap"
+  ohos_app "FlClash-0.8.96+2026102101-ohos.hap"
 end

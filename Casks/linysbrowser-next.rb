@@ -1,6 +1,6 @@
 cask "linysbrowser-next" do
-  version "2.1.0"
-  sha256 arm64_linux: "af7496934c2afdebca80da78c7603048352a55491ccf5966daa97d2cf0021001"
+  version "2.1.1"
+  sha256 arm64_linux: "6440174bfc5a7cf3724453fc5ee1e2b5fdbe1ea527818096e9240b4685e9d5c3"
 
   url "https://github.com/awaLiny2333/LinysBrowser_NEXT/releases/download/v#{version}-beta/home-default-unsigned.hap"
   name "冲浪喵"
