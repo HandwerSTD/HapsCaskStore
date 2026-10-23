@@ -25,10 +25,10 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | cask | 版本 | 软件 | 上游仓库 |
 | --- | --- | --- | --- |
 | `aira-browser` | 3.7.4 | Aira | `mason173/aira-browser` |
-| `amcl` | 1.0.5 | AMCL | `LZZLHY/amcl` |
+| `amcl` | 1.0.6 | AMCL | `LZZLHY/amcl` |
 | `anich` | 1.5.27 | AniCh | `Sle2p/AniCh` |
 | `audiobookshelf-harmonyos` | 2.3.0 | Harmshelf | `shanyan-wcx/Audiobookshelf-HarmonyOS` |
-| `bettbox` | 1.19.6 | Bettbox | `htoay/Bettbox` |
+| `bettbox` | 1.19.7 | Bettbox | `htoay/Bettbox` |
 | `bika-harmonyos` | 1.4.5 | 哔咔 | `LoMoCatAp/Bika-HarmonyOS` |
 | `collection-ohos` | 1.29.0 | 收藏 | `muleos/collection_ohos` |
 | `copyhomo` | 1.3.5 | 拷贝漫画 | `point258/copyhomo` |
@@ -45,7 +45,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `homl` | 1.1.0 | HOML启动器 | `xiaobaigroup/HOML` |
 | `hx360e` | 1.0.2 | HX360E | `1440196924/HX360E` |
 | `jellyfin-harmonyos` | 1.0.4 | JellyFin | `chashaochang/JellyFin_HarmonyOS` |
-| `kazumi` | 2.3.9 | Kazumi | `ErBWs/Kazumi` |
+| `kazumi` | 2.4.1 | Kazumi | `ErBWs/Kazumi` |
 | `linysbrowser-next` | 2.1.1 | 冲浪喵 | `awaLiny2333/LinysBrowser_NEXT` |
 | `lnga-harmony` | 1.2.6 | LNGA | `apap6628114/lnga_harmony` |
 | `lovelyflash-jmcomic-harmonyos` | 1.1.0 | JMComic | `LovelyFlash/JMComic-HarmonyOS` |
@@ -89,17 +89,18 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `harmony-kslmkf-karing-hap` | 1.11.0 | Karing | `ks-lm-kf/harmony-kslmkf-karing-hap` |
 | `hey` | 1.3.4 | Hey | `xiaoli8571/Hey` |
 | `homenapod` | 1.0.18 | HomenaPod | `TomoeMami/HomenaPod` |
-| `homowarden` | 2.0.2 | Homowarden | `DreamistW/Homowarden` |
+| `homowarden` | 2.0.3 | Homowarden | `DreamistW/Homowarden` |
 | `immich-ohos` | 3.3.1 | immich | `dgh1818/immich_ohos` |
 | `legado-harmony` | 1.0.6.197 | 开源阅读 | `mgz0227/legado-Harmony` |
 | `livify-ohos` | 1.1.0 | 聚映 | `yabi-zzh/livify-ohos` |
 | `localsend-ohos` | 1.17.2 | LocalSend | `Aloereed/localsend-ohos` |
+| `nekobox4harmony` | 2.1.8 | NekoBox | `xiaoli8571/NekoBox4Harmony` |
 | `neon-ohos` | 1.0.0 | Neon | `shokakucarrier/neon-ohos` |
 | `next2v` | 1.0.12 | Next2V | `honjow/Next2V` |
 | `nexte` | 1.3.6 | NextE | `erosTeam/NextE` |
-| `nexus-vpn-harmonyos` | 0.5.2 | Nexus | `xiaoli8571/Nexus-VPN-HarmonyOS` |
+| `nexus-vpn-harmonyos` | 0.5.5 | Nexus | `xiaoli8571/Nexus-VPN-HarmonyOS` |
 | `niceleep` | 1.1.0 | 响入睡 | `qinshah/niceleep` |
-| `nipaplay-reload` | 1.11.9 | NipaPlay | `AimesSoft/NipaPlay-Reload` |
+| `nipaplay-reload` | 1.11.10 | NipaPlay | `AimesSoft/NipaPlay-Reload` |
 | `ohentai` | 0.5.4 | Ohentai | `Ibukitofu/Ohentai` |
 | `petrelgram` | 1.5.4 | Petrelgram | `miramira8295/Petrelgram` |
 | `picacomic-ohos` | 5.0.0 | Pica Comic | `nimmi114514/PicaComic_ohos` |
@@ -121,7 +122,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `servo` | 0.7.0 | Servo | `servo/servo` |
 | `vlc-qt6-ohos` | 3.0.21 | VLC播放器 | `Aloereed/vlc-qt6-ohos` |
 
-合计 86 个 cask，未收录 24 个条目。
+合计 87 个 cask，未收录 23 个条目。
 
 ### 未收录的条目
 
@@ -140,7 +141,6 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | Anx Reader | Release 里没有 .hap 或 .app 资产 |
 | Obsidian | 仓库没有可用的 Release |
 | Kelivo | Release 里没有 .hap 或 .app 资产 |
-| NekoBox | 仓库没有可用的 Release |
 | 存好 | 仓库没有可用的 Release |
 | Scrcpy | Release 里没有 .hap 或 .app 资产 |
 | ArkDO | 仓库没有可用的 Release |

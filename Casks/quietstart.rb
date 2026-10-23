@@ -1,8 +1,8 @@
 cask "quietstart" do
   version "1.2.8"
-  sha256 arm64_linux: "ae95799e58f02b74f64d475c83b071d6fb9628792c814c3bfca39ce60fd7a2e8"
+  sha256 arm64_linux: "112bbd0cdbf3804fc7aefe3a1c42f0c64660fd5a9b8bdbeac004b8c72a54b4e3"
 
-  url "https://github.com/thx853068675-dev/quietstart/releases/download/v#{version}-beta-128002/quietstart-1.2.8-beta-128002.hap"
+  url "https://github.com/thx853068675-dev/quietstart/releases/download/v#{version}/quietstart-1.2.8.hap"
   name "轻启"
   desc "鸿蒙原生页面控件识别工具，自动跳过广告开屏"
   homepage "https://github.com/thx853068675-dev/quietstart"
@@ -16,5 +16,5 @@ cask "quietstart" do
   depends_on :linux
   container type: :naked
 
-  ohos_app "quietstart-1.2.8-beta-128002.hap"
+  ohos_app "quietstart-1.2.8.hap"
 end

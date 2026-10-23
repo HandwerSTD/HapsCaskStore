@@ -1,8 +1,8 @@
 cask "homowarden" do
-  version "2.0.2"
-  sha256 arm64_linux: "19c7dcde518279668e8613571d70a048169ac689023cd22669168a19d2d8a8da"
+  version "2.0.3"
+  sha256 arm64_linux: "bd2a349dd5544b101d6690d95c754b3672d51a25a6c570e147cdca047db73f6e"
 
-  url "https://github.com/DreamistW/Homowarden/releases/download/v#{version}/entry-default-unsigned.hap"
+  url "https://github.com/DreamistW/Homowarden/releases/download/oh-v#{version}/Homowarden-OpenHarmony-2.0.3-e197597-release-unsigned.hap"
   name "Homowarden"
   desc "鸿蒙版Bitwarden密码管理器，支持自托管服务器"
   homepage "https://github.com/DreamistW/Homowarden"
@@ -16,5 +16,5 @@ cask "homowarden" do
   depends_on :linux
   container type: :naked
 
-  ohos_app "entry-default-unsigned.hap"
+  ohos_app "Homowarden-OpenHarmony-2.0.3-e197597-release-unsigned.hap"
 end
