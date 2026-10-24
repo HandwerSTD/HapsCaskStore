@@ -1,8 +1,8 @@
 cask "zhihu-plus-plus-hmos" do
-  version "0.5.9"
-  sha256 arm64_linux: "bc4fba4dea11fc815deddeaea2814909bf91ebec3ffba3a1c34b8143ef9cb6df"
+  version "0.5.10"
+  sha256 arm64_linux: "0beb486ec02dbce35eaeaa272909562c3b422e1b27b48d6c27ae473717beb6bc"
 
-  url "https://github.com/zhuoyi233/zhihu-plus-plus-HMOS/releases/download/HMOSv#{version}/ZhihuPlusPlus-HMOS-v0.5.9-unsigned.hap"
+  url "https://github.com/zhuoyi233/zhihu-plus-plus-HMOS/releases/download/HMOSv#{version}/ZhihuPlusPlus-HMOS-v0.5.10-unsigned.hap"
   name "知乎++"
   desc "知乎++ 鸿蒙原生版，注重隐私与去广告的知乎客户端"
   homepage "https://github.com/zhuoyi233/zhihu-plus-plus-HMOS"
@@ -16,5 +16,5 @@ cask "zhihu-plus-plus-hmos" do
   depends_on :linux
   container type: :naked
 
-  ohos_app "ZhihuPlusPlus-HMOS-v0.5.9-unsigned.hap"
+  ohos_app "ZhihuPlusPlus-HMOS-v0.5.10-unsigned.hap"
 end

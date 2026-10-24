@@ -24,7 +24,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 
 | cask | 版本 | 软件 | 上游仓库 |
 | --- | --- | --- | --- |
-| `aira-browser` | 3.7.4 | Aira | `mason173/aira-browser` |
+| `aira-browser` | 3.8.4 | Aira | `mason173/aira-browser` |
 | `amcl` | 1.0.6 | AMCL | `LZZLHY/amcl` |
 | `anich` | 1.5.27 | AniCh | `Sle2p/AniCh` |
 | `audiobookshelf-harmonyos` | 2.3.0 | Harmshelf | `shanyan-wcx/Audiobookshelf-HarmonyOS` |
@@ -37,7 +37,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `flclash-ohos` | 0.8.96 | FlClash | `tljk/FlClash-ohos` |
 | `hap-installer` | 1.0.0 | HapInstaller | `LMV475/hap-installer` |
 | `hapapp` | 1.7.4 | ClashBox | `xiaobaigroup/hapapp` |
-| `hapstore` | 1.0.0 | HapStore | `zhailinlang/hapstore` |
+| `hapstore` | 1.0.1 | HapStore | `zhailinlang/hapstore` |
 | `harmonic` | 2.1.7 | Harmonic | `shanyan-wcx/Harmonic` |
 | `harmonyx` | 3.4.0 | Harmony X | `haohaoai0/HarmonyX` |
 | `hlib` | 1.0.1 | 海阅 | `LZZLHY/hlib` |
@@ -48,8 +48,8 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `kazumi` | 2.4.1 | Kazumi | `ErBWs/Kazumi` |
 | `linysbrowser-next` | 2.1.1 | 冲浪喵 | `awaLiny2333/LinysBrowser_NEXT` |
 | `lnga-harmony` | 1.2.6 | LNGA | `apap6628114/lnga_harmony` |
-| `lovelyflash-jmcomic-harmonyos` | 1.1.0 | JMComic | `LovelyFlash/JMComic-HarmonyOS` |
-| `lvlian-view-hm` | 1.0.9 | 联文件 | `fhf2022/lvlian-view-hm` |
+| `lovelyflash-jmcomic-harmonyos` | 1.1.1 | JMComic | `LovelyFlash/JMComic-HarmonyOS` |
+| `lvlian-view-hm` | 1.0.11 | 联文件 | `fhf2022/lvlian-view-hm` |
 | `lx-music-harmony` | 1.0.0 | 洛雪音乐 | `k-brother/lx-music-harmony` |
 | `mcb-ohos` | 1.2.0 | Minecraft Box | `lxdklp/MCB_OHOS` |
 | `melotopia-hmos` | 1.15.3 | Melotopia | `Chenlvin/Melotopia-HMOS` |
@@ -71,7 +71,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `wpixelgram-for-harmonyos` | 0.1.0 | Wpixelgram | `1055235342/Wpixelgram-for-HarmonyOS` |
 | `yourpipe` | 0.7.0-1000032 | YourPipe | `Ember5843/YourPipe` |
 | `yuanchu-tec-jmcomic-harmonyos` | 1.0.10 | JMComic | `YuanChu-Tec/JMComic-HarmonyOS` |
-| `zhihu-plus-plus-hmos` | 0.5.9 | 知乎++ | `zhuoyi233/zhihu-plus-plus-HMOS` |
+| `zhihu-plus-plus-hmos` | 0.5.10 | 知乎++ | `zhuoyi233/zhihu-plus-plus-HMOS` |
 
 ### 鸿蒙手机/平板
 
@@ -94,7 +94,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `legado-harmony` | 1.0.6.197 | 开源阅读 | `mgz0227/legado-Harmony` |
 | `livify-ohos` | 1.1.0 | 聚映 | `yabi-zzh/livify-ohos` |
 | `localsend-ohos` | 1.17.2 | LocalSend | `Aloereed/localsend-ohos` |
-| `nekobox4harmony` | 2.1.8 | NekoBox | `xiaoli8571/NekoBox4Harmony` |
+| `nekobox4harmony` | 2.3.0 | NekoBox | `xiaoli8571/NekoBox4Harmony` |
 | `neon-ohos` | 1.0.0 | Neon | `shokakucarrier/neon-ohos` |
 | `next2v` | 1.0.12 | Next2V | `honjow/Next2V` |
 | `nexte` | 1.3.6 | NextE | `erosTeam/NextE` |

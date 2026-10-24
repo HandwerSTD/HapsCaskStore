@@ -1,8 +1,8 @@
 cask "aira-browser" do
-  version "3.7.4"
-  sha256 arm64_linux: "0fe301e86261daacc473db9f9d1cd18861d96d8f7a80df0a3c9313cc526a2732"
+  version "3.8.4"
+  sha256 arm64_linux: "89a8cbf2feaea57734251f4ddb7ec21326d3b0de9dc382efc58f1189b7c15f95"
 
-  url "https://github.com/mason173/aira-browser/releases/download/v#{version}/Aira-community-v3.7.4-1000531-default-unsigned.hap"
+  url "https://github.com/mason173/aira-browser/releases/download/v#{version}/Aira-community-v3.8.4-1000555-default-unsigned.hap"
   name "Aira"
   desc "开源的鸿蒙 NEXT 浏览器"
   homepage "https://github.com/mason173/aira-browser"
@@ -16,5 +16,5 @@ cask "aira-browser" do
   depends_on :linux
   container type: :naked
 
-  ohos_app "Aira-community-v3.7.4-1000531-default-unsigned.hap"
+  ohos_app "Aira-community-v3.8.4-1000555-default-unsigned.hap"
 end
