@@ -39,7 +39,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `hapapp` | 1.7.4 | ClashBox | `xiaobaigroup/hapapp` |
 | `hapstore` | 1.0.1 | HapStore | `zhailinlang/hapstore` |
 | `harmonic` | 2.1.7 | Harmonic | `shanyan-wcx/Harmonic` |
-| `harmonyx` | 3.4.0 | Harmony X | `haohaoai0/HarmonyX` |
+| `harmonyx` | 3.5.0 | Harmony X | `haohaoai0/HarmonyX` |
 | `hlib` | 1.0.1 | 海阅 | `LZZLHY/hlib` |
 | `home-cloud-shield` | 0.1.0 | 栖云盾 | `Tlntin/home-cloud-shield` |
 | `homl` | 1.1.0 | HOML启动器 | `xiaobaigroup/HOML` |
@@ -48,7 +48,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `kazumi` | 2.4.1 | Kazumi | `ErBWs/Kazumi` |
 | `linysbrowser-next` | 2.1.1 | 冲浪喵 | `awaLiny2333/LinysBrowser_NEXT` |
 | `lnga-harmony` | 1.2.6 | LNGA | `apap6628114/lnga_harmony` |
-| `lovelyflash-jmcomic-harmonyos` | 1.1.1 | JMComic | `LovelyFlash/JMComic-HarmonyOS` |
+| `lovelyflash-jmcomic-harmonyos` | 1.1.2 | JMComic | `LovelyFlash/JMComic-HarmonyOS` |
 | `lvlian-view-hm` | 1.0.11 | 联文件 | `fhf2022/lvlian-view-hm` |
 | `lx-music-harmony` | 1.0.0 | 洛雪音乐 | `k-brother/lx-music-harmony` |
 | `mcb-ohos` | 1.2.0 | Minecraft Box | `lxdklp/MCB_OHOS` |
