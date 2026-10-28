@@ -1,8 +1,8 @@
 cask "immich-ohos" do
   version "3.3.5"
-  sha256 arm64_linux: "cd77e8348b59f9311084b980c2ad5bffa00f76f72974dd320a6ab20cd4f87692"
+  sha256 arm64_linux: "085cd11c76e936a2cc2b9117fe52aec2344bda42f20fe6a3d06514b118321f5f"
 
-  url "https://github.com/dgh1818/immich_ohos/releases/download/v#{version}-ohos-v0.0.1/entry-default-signed.hap"
+  url "https://github.com/dgh1818/immich_ohos/releases/download/v#{version}-ohos-v0.0.2/entry-default-signed.hap"
   name "immich"
   desc "一款连接 Immich 私人照片和视频备份服务器的鸿蒙客户端，用于在鸿蒙设备上浏览和管理个人媒体库"
   homepage "https://github.com/dgh1818/immich_ohos"

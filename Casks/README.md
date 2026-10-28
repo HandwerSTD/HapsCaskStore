@@ -29,9 +29,8 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `anich` | 1.5.27 | AniCh | `Sle2p/AniCh` |
 | `audiobookshelf-harmonyos` | 2.3.0 | Harmshelf | `shanyan-wcx/Audiobookshelf-HarmonyOS` |
 | `bettbox` | 1.19.7 | Bettbox | `htoay/Bettbox` |
-| `bika-harmonyos` | 1.4.5 | 哔咔 | `LoMoCatAp/Bika-HarmonyOS` |
+| `bika-harmonyos` | 1.4.6 | 哔咔 | `LoMoCatAp/Bika-HarmonyOS` |
 | `collection-ohos` | 1.29.0 | 收藏 | `muleos/collection_ohos` |
-| `copyhomo` | 1.3.5 | 拷贝漫画 | `point258/copyhomo` |
 | `diplay-harmony` | 0.13.11 | DiPlay Harmony | `Tedfaraday/DiPlay-Harmony` |
 | `etohos` | 1.0.9 | Etohos | `collaborative-creation/etohos` |
 | `flclash-ohos` | 0.8.96 | FlClash | `tljk/FlClash-ohos` |
@@ -39,7 +38,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `hapapp` | 1.7.4 | ClashBox | `xiaobaigroup/hapapp` |
 | `hapstore` | 1.0.1 | HapStore | `zhailinlang/hapstore` |
 | `harmonic` | 2.1.7 | Harmonic | `shanyan-wcx/Harmonic` |
-| `harmonyx` | 3.6.0 | Harmony X | `haohaoai0/HarmonyX` |
+| `harmonyx` | 3.7.0 | Harmony X | `haohaoai0/HarmonyX` |
 | `hlib` | 1.0.1 | 海阅 | `LZZLHY/hlib` |
 | `home-cloud-shield` | 0.1.0 | 栖云盾 | `Tlntin/home-cloud-shield` |
 | `homl` | 1.1.0 | HOML启动器 | `xiaobaigroup/HOML` |
@@ -59,7 +58,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `mr` | 2026-09-12 | MR | `DandanLLab/mr` |
 | `neriplayer-harmonyos` | 1.4.0 | 音理音理! | `suyunxing/NeriPlayer-HarmonyOS` |
 | `nexhub` | 3.3.0 | NexHub | `nexhub-app/NexHub` |
-| `nextn` | 1.0.7 | NextN | `erosTeam/NextN` |
+| `nextn` | 1.0.8 | NextN | `erosTeam/NextN` |
 | `ohsidian` | latest | OHsidian | `HanversionOvO/OHSidian` |
 | `pilinara` | 2.1.6.1 | PiliNara | `dev4harmony/PiliNara` |
 | `piliplus` | 2.1.6.2 | PiliPlus | `dev4harmony/PiliPlus` |
@@ -91,7 +90,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `harflix` | 1.0.6 | Harflix | `Actrlq/Harflix` |
 | `harmony-kslmkf-karing-hap` | 1.11.0 | Karing | `ks-lm-kf/harmony-kslmkf-karing-hap` |
 | `hey` | 1.3.4 | Hey | `xiaoli8571/Hey` |
-| `homenapod` | 1.0.18 | HomenaPod | `TomoeMami/HomenaPod` |
+| `homenapod` | 1.0.19 | HomenaPod | `TomoeMami/HomenaPod` |
 | `homowarden` | 2.0.3 | Homowarden | `DreamistW/Homowarden` |
 | `immich-ohos` | 3.3.5 | immich | `dgh1818/immich_ohos` |
 | `legado-harmony` | 1.0.6.218 | 开源阅读 | `mgz0227/legado-Harmony` |
@@ -99,8 +98,8 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `localsend-ohos` | 1.17.2 | LocalSend | `Aloereed/localsend-ohos` |
 | `nekobox4harmony` | 2.3.0 | NekoBox | `xiaoli8571/NekoBox4Harmony` |
 | `neon-ohos` | 1.0.0 | Neon | `shokakucarrier/neon-ohos` |
-| `next2v` | 1.0.12 | Next2V | `honjow/Next2V` |
-| `nexte` | 1.3.6 | NextE | `erosTeam/NextE` |
+| `next2v` | 1.0.13 | Next2V | `honjow/Next2V` |
+| `nexte` | 1.3.7 | NextE | `erosTeam/NextE` |
 | `nexus-vpn-harmonyos` | 0.6.8 | Nexus | `xiaoli8571/Nexus-VPN-HarmonyOS` |
 | `niceleep` | 1.1.0 | 响入睡 | `qinshah/niceleep` |
 | `nipaplay-reload` | 1.11.10 | NipaPlay | `AimesSoft/NipaPlay-Reload` |
@@ -126,7 +125,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `usbarc` | 1.0.1 | USBArc | `RockyMtnWolf/USBArc` |
 | `vlc-qt6-ohos` | 3.0.21 | VLC播放器 | `Aloereed/vlc-qt6-ohos` |
 
-合计 91 个 cask，未收录 24 个条目。
+合计 90 个 cask，未收录 25 个条目。
 
 ### 未收录的条目
 
@@ -143,6 +142,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | Moonlight | 项目主页与下载页都不在 GitHub 上 |
 | OpenTwit | 仓库没有可用的 Release |
 | Anx Reader | Release 里没有 .hap 或 .app 资产 |
+| 拷贝漫画 | 仓库没有可用的 Release |
 | Obsidian | 仓库没有可用的 Release |
 | Kelivo | Release 里没有 .hap 或 .app 资产 |
 | 存好 | 仓库没有可用的 Release |

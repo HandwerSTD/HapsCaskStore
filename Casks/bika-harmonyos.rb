@@ -1,6 +1,6 @@
 cask "bika-harmonyos" do
-  version "1.4.5"
-  sha256 arm64_linux: "11bbdf5197852e1ff26377d1b7b199e87da7e2eb0855ee991655e6437ebed682"
+  version "1.4.6"
+  sha256 arm64_linux: "7e45bb0b4a13495f9a420bd1f8ee2c87da988b4da9207724dbfd112f09b9c9bf"
 
   url "https://github.com/LoMoCatAp/Bika-HarmonyOS/releases/download/v#{version}/entry-default-unsigned.hap"
   name "哔咔"
