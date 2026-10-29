@@ -29,14 +29,14 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `anich` | 1.5.27 | AniCh | `Sle2p/AniCh` |
 | `audiobookshelf-harmonyos` | 2.3.0 | Harmshelf | `shanyan-wcx/Audiobookshelf-HarmonyOS` |
 | `bettbox` | 1.19.7 | Bettbox | `htoay/Bettbox` |
-| `bika-harmonyos` | 1.4.6 | 哔咔 | `LoMoCatAp/Bika-HarmonyOS` |
+| `bika-harmonyos` | 1.4.7 | 哔咔 | `LoMoCatAp/Bika-HarmonyOS` |
 | `collection-ohos` | 1.29.0 | 收藏 | `muleos/collection_ohos` |
 | `diplay-harmony` | 0.13.11 | DiPlay Harmony | `Tedfaraday/DiPlay-Harmony` |
 | `etohos` | 1.0.9 | Etohos | `collaborative-creation/etohos` |
 | `flclash-ohos` | 0.8.96 | FlClash | `tljk/FlClash-ohos` |
 | `hap-installer` | 1.0.0 | HapInstaller | `LMV475/hap-installer` |
 | `hapapp` | 1.7.4 | ClashBox | `xiaobaigroup/hapapp` |
-| `hapstore` | 1.0.1 | HapStore | `zhailinlang/hapstore` |
+| `hapstore` | 1.0.2 | HapStore | `zhailinlang/hapstore` |
 | `harmonic` | 2.1.7 | Harmonic | `shanyan-wcx/Harmonic` |
 | `harmonyx` | 3.7.0 | Harmony X | `haohaoai0/HarmonyX` |
 | `hlib` | 1.0.1 | 海阅 | `LZZLHY/hlib` |
@@ -49,7 +49,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `linysbrowser-next` | 2.1.1 | 冲浪喵 | `awaLiny2333/LinysBrowser_NEXT` |
 | `lnga-harmony` | 1.2.6 | LNGA | `apap6628114/lnga_harmony` |
 | `lovelyflash-jmcomic-harmonyos` | 1.1.2 | JMComic | `LovelyFlash/JMComic-HarmonyOS` |
-| `lvlian-view-hm` | 1.0.11 | 联文件 | `fhf2022/lvlian-view-hm` |
+| `lvlian-view-hm` | 1.0.12 | 联文件 | `fhf2022/lvlian-view-hm` |
 | `lx-music-harmony` | 1.0.0 | 洛雪音乐 | `k-brother/lx-music-harmony` |
 | `mcb-ohos` | 1.2.0 | Minecraft Box | `lxdklp/MCB_OHOS` |
 | `melotopia-hmos` | 1.15.3 | Melotopia | `Chenlvin/Melotopia-HMOS` |
@@ -64,7 +64,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `piliplus` | 2.1.6.2 | PiliPlus | `dev4harmony/PiliPlus` |
 | `piliplusx` | 1.1.6.4 | PiliPlusX | `cnctem/PiliPlusX` |
 | `quietstart` | 1.2.9 | 轻启 | `thx853068675-dev/quietstart` |
-| `s1-orange` | 1.5.1 | S1 Orange | `wly5556/S1-Orange` |
+| `s1-orange` | 1.5.2 | S1 Orange | `wly5556/S1-Orange` |
 | `tailscale-ohos` | 0.3.19 | Tailscale | `flypigJ/Tailscale-OHOS` |
 | `tunnelark` | 1.1.3 | 隧舟 TunnelArk | `RockyMtnWolf/TunnelArk` |
 | `vhome-release` | 2.6.14 | VHome (vae＋) | `muleos/VHome-release` |
@@ -100,7 +100,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `neon-ohos` | 1.0.0 | Neon | `shokakucarrier/neon-ohos` |
 | `next2v` | 1.0.13 | Next2V | `honjow/Next2V` |
 | `nexte` | 1.3.7 | NextE | `erosTeam/NextE` |
-| `nexus-vpn-harmonyos` | 0.6.8 | Nexus | `xiaoli8571/Nexus-VPN-HarmonyOS` |
+| `nexus-vpn-harmonyos` | 0.7.2 | Nexus | `xiaoli8571/Nexus-VPN-HarmonyOS` |
 | `niceleep` | 1.1.0 | 响入睡 | `qinshah/niceleep` |
 | `nipaplay-reload` | 1.11.10 | NipaPlay | `AimesSoft/NipaPlay-Reload` |
 | `ohentai` | 0.5.4 | Ohentai | `Ibukitofu/Ohentai` |
