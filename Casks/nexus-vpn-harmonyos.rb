@@ -1,8 +1,8 @@
 cask "nexus-vpn-harmonyos" do
-  version "0.7.2"
-  sha256 arm64_linux: "80b5b418d747a422aedbad322b794aacf2d569ebf126c108f945cc1c7dfcc543"
+  version "0.7.4"
+  sha256 arm64_linux: "aa8d98ed2175fab7f8fd7d43dedafd1a970f6e0466db34484893f2636eb9b395"
 
-  url "https://github.com/xiaoli8571/Nexus-VPN-HarmonyOS/releases/download/v#{version}/TunBox-0.7.2-unsigned.hap"
+  url "https://github.com/xiaoli8571/Nexus-VPN-HarmonyOS/releases/download/v#{version}/TunBox-0.7.4-unsigned.hap"
   name "Nexus"
   desc "鸿蒙原生代理客户端，Mihomo 内核进程内嵌 TUN"
   homepage "https://github.com/xiaoli8571/Nexus-VPN-HarmonyOS"
@@ -16,5 +16,5 @@ cask "nexus-vpn-harmonyos" do
   depends_on :linux
   container type: :naked
 
-  ohos_app "TunBox-0.7.2-unsigned.hap"
+  ohos_app "TunBox-0.7.4-unsigned.hap"
 end

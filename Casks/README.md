@@ -49,7 +49,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `linysbrowser-next` | 2.1.1 | 冲浪喵 | `awaLiny2333/LinysBrowser_NEXT` |
 | `lnga-harmony` | 1.2.6 | LNGA | `apap6628114/lnga_harmony` |
 | `lovelyflash-jmcomic-harmonyos` | 1.1.2 | JMComic | `LovelyFlash/JMComic-HarmonyOS` |
-| `lvlian-view-hm` | 1.0.12 | 联文件 | `fhf2022/lvlian-view-hm` |
+| `lvlian-view-hm` | 1.0.14 | 联文件 | `fhf2022/lvlian-view-hm` |
 | `lx-music-harmony` | 1.0.0 | 洛雪音乐 | `k-brother/lx-music-harmony` |
 | `mcb-ohos` | 1.2.0 | Minecraft Box | `lxdklp/MCB_OHOS` |
 | `melotopia-hmos` | 1.15.3 | Melotopia | `Chenlvin/Melotopia-HMOS` |
@@ -96,15 +96,15 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `legado-harmony` | 1.0.6.218 | 开源阅读 | `mgz0227/legado-Harmony` |
 | `livify-ohos` | 1.1.0 | 聚映 | `yabi-zzh/livify-ohos` |
 | `localsend-ohos` | 1.17.2 | LocalSend | `Aloereed/localsend-ohos` |
-| `nekobox4harmony` | 2.3.0 | NekoBox | `xiaoli8571/NekoBox4Harmony` |
+| `nekobox4harmony` | 2.6.0 | NekoBox | `xiaoli8571/NekoBox4Harmony` |
 | `neon-ohos` | 1.0.0 | Neon | `shokakucarrier/neon-ohos` |
 | `next2v` | 1.0.13 | Next2V | `honjow/Next2V` |
 | `nexte` | 1.3.7 | NextE | `erosTeam/NextE` |
-| `nexus-vpn-harmonyos` | 0.7.2 | Nexus | `xiaoli8571/Nexus-VPN-HarmonyOS` |
+| `nexus-vpn-harmonyos` | 0.7.4 | Nexus | `xiaoli8571/Nexus-VPN-HarmonyOS` |
 | `niceleep` | 1.1.0 | 响入睡 | `qinshah/niceleep` |
 | `nipaplay-reload` | 1.11.10 | NipaPlay | `AimesSoft/NipaPlay-Reload` |
 | `ohentai` | 0.5.4 | Ohentai | `Ibukitofu/Ohentai` |
-| `petrelgram` | 1.5.4 | Petrelgram | `miramira8295/Petrelgram` |
+| `petrelgram` | 1.5.6 | Petrelgram | `miramira8295/Petrelgram` |
 | `picacomic-ohos` | 5.0.0 | Pica Comic | `nimmi114514/PicaComic_ohos` |
 | `pixez-flutter-ohos` | 0.9.112 | PixEz | `bgli100/pixez-flutter-ohos` |
 | `pokedex-next` | 1.0.0 | 宝可梦图鉴 | `Luxcis/Pokedex_Next` |
