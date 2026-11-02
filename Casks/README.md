@@ -33,7 +33,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `collection-ohos` | 1.29.0 | 收藏 | `muleos/collection_ohos` |
 | `diplay-harmony` | 0.13.11 | DiPlay Harmony | `Tedfaraday/DiPlay-Harmony` |
 | `etohos` | 1.0.9 | Etohos | `collaborative-creation/etohos` |
-| `flclash-ohos` | 0.8.96 | FlClash | `tljk/FlClash-ohos` |
+| `flclash-ohos` | 0.8.99 | FlClash | `tljk/FlClash-ohos` |
 | `hap-installer` | 1.0.0 | HapInstaller | `LMV475/hap-installer` |
 | `hapapp` | 1.7.4 | ClashBox | `xiaobaigroup/hapapp` |
 | `hapstore` | 1.0.2 | HapStore | `zhailinlang/hapstore` |
@@ -49,7 +49,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `linysbrowser-next` | 2.1.1 | 冲浪喵 | `awaLiny2333/LinysBrowser_NEXT` |
 | `lnga-harmony` | 1.2.6 | LNGA | `apap6628114/lnga_harmony` |
 | `lovelyflash-jmcomic-harmonyos` | 1.1.2 | JMComic | `LovelyFlash/JMComic-HarmonyOS` |
-| `lvlian-view-hm` | 1.0.15 | 联文件 | `fhf2022/lvlian-view-hm` |
+| `lvlian-view-hm` | 1.0.17 | 联文件 | `fhf2022/lvlian-view-hm` |
 | `lx-music-harmony` | 1.0.0 | 洛雪音乐 | `k-brother/lx-music-harmony` |
 | `mcb-ohos` | 1.2.0 | Minecraft Box | `lxdklp/MCB_OHOS` |
 | `melotopia-hmos` | 1.15.3 | Melotopia | `Chenlvin/Melotopia-HMOS` |
