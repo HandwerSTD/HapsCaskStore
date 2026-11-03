@@ -1,8 +1,8 @@
 cask "pixez-flutter-ohos" do
-  version "0.9.112.1"
-  sha256 arm64_linux: "16b53921f3e2350fe7492c0d2df3e769c966685502f4b953ac7dca4df3191fd4"
+  version "0.9.113"
+  sha256 arm64_linux: "231c5f8334856c5081b59c85b2e099eeb22e174602047f424d3f284351e741fa"
 
-  url "https://github.com/bgli100/pixez-flutter-ohos/releases/download/#{version}/pixez-flutter-ohos-0.9.112.1.hap"
+  url "https://github.com/bgli100/pixez-flutter-ohos/releases/download/#{version}/pixez-flutter-ohos-0.9.113.hap"
   name "PixEz"
   desc "一款支持免代理直连及查看动图的第三方Pixiv flutter客户端"
   homepage "https://github.com/bgli100/pixez-flutter-ohos"
@@ -16,5 +16,5 @@ cask "pixez-flutter-ohos" do
   depends_on :linux
   container type: :naked
 
-  ohos_app "pixez-flutter-ohos-0.9.112.1.hap"
+  ohos_app "pixez-flutter-ohos-0.9.113.hap"
 end

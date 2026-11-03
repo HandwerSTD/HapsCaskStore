@@ -48,8 +48,8 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `libretv-for-harmonyos` | 2.3.6 | LibreTV | `panhaichen-creator/LibreTV-for-HarmonyOS` |
 | `linysbrowser-next` | 2.1.1 | 冲浪喵 | `awaLiny2333/LinysBrowser_NEXT` |
 | `lnga-harmony` | 1.2.6 | LNGA | `apap6628114/lnga_harmony` |
-| `lovelyflash-jmcomic-harmonyos` | 1.1.2 | JMComic | `LovelyFlash/JMComic-HarmonyOS` |
-| `lvlian-view-hm` | 1.0.17 | 联文件 | `fhf2022/lvlian-view-hm` |
+| `lovelyflash-jmcomic-harmonyos` | 1.1.4 | JMComic | `LovelyFlash/JMComic-HarmonyOS` |
+| `lvlian-view-hm` | 1.0.18 | 联文件 | `fhf2022/lvlian-view-hm` |
 | `lx-music-harmony` | 1.0.0 | 洛雪音乐 | `k-brother/lx-music-harmony` |
 | `mcb-ohos` | 1.2.0 | Minecraft Box | `lxdklp/MCB_OHOS` |
 | `melotopia-hmos` | 1.15.3 | Melotopia | `Chenlvin/Melotopia-HMOS` |
@@ -106,7 +106,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `ohentai` | 0.5.4 | Ohentai | `Ibukitofu/Ohentai` |
 | `petrelgram` | 1.5.6 | Petrelgram | `miramira8295/Petrelgram` |
 | `picacomic-ohos` | 5.0.0 | Pica Comic | `nimmi114514/PicaComic_ohos` |
-| `pixez-flutter-ohos` | 0.9.112.1 | PixEz | `bgli100/pixez-flutter-ohos` |
+| `pixez-flutter-ohos` | 0.9.113 | PixEz | `bgli100/pixez-flutter-ohos` |
 | `pokedex-next` | 1.0.0 | 宝可梦图鉴 | `Luxcis/Pokedex_Next` |
 | `shuati` | ShuaTi | 刷题宝 | `xiaomoHM/ShuaTi` |
 | `soc-search` | 1.0.25 | soc-search | `Amview/soc-search` |
