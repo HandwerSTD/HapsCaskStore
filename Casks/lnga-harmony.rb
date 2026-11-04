@@ -1,6 +1,6 @@
 cask "lnga-harmony" do
-  version "1.2.6"
-  sha256 arm64_linux: "6dd536bef402ca460f55276f611d2c8da9b5ab60137b08fea7915820f4801022"
+  version "1.3.0"
+  sha256 arm64_linux: "4a07629612cb1843e415d24e7b038aefcb6b6938d2d7aee6532eaed4df092e13"
 
   url "https://github.com/apap6628114/lnga_harmony/releases/download/#{version}/entry-default.hap"
   name "LNGA"
