@@ -106,7 +106,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `ohentai` | 0.5.4 | Ohentai | `Ibukitofu/Ohentai` |
 | `petrelgram` | 1.5.6 | Petrelgram | `miramira8295/Petrelgram` |
 | `picacomic-ohos` | 5.0.5 | Pica Comic | `nimmi114514/PicaComic_ohos` |
-| `pixez-flutter-ohos` | 0.9.113 | PixEz | `bgli100/pixez-flutter-ohos` |
+| `pixez-flutter-ohos` | 0.9.113.2 | PixEz | `bgli100/pixez-flutter-ohos` |
 | `pokedex-next` | 1.0.0 | 宝可梦图鉴 | `Luxcis/Pokedex_Next` |
 | `shuati` | ShuaTi | 刷题宝 | `xiaomoHM/ShuaTi` |
 | `soc-search` | 1.0.25 | soc-search | `Amview/soc-search` |
