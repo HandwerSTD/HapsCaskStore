@@ -27,6 +27,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `aira-browser` | 3.9.1 | Aira | `mason173/aira-browser` |
 | `amcl` | 1.0.6 | AMCL | `LZZLHY/amcl` |
 | `anich` | 1.5.27 | AniCh | `Sle2p/AniCh` |
+| `arkclash` | 0.1.1 | ArkClash | `VOD-Studio/ArkClash` |
 | `audiobookshelf-harmonyos` | 2.3.0 | Harmshelf | `shanyan-wcx/Audiobookshelf-HarmonyOS` |
 | `bettbox` | 1.19.7 | Bettbox | `htoay/Bettbox` |
 | `bika-harmonyos` | 1.5.1 | 哔咔 | `LoMoCatAp/Bika-HarmonyOS` |
@@ -45,9 +46,10 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `hx360e` | 1.0.2 | HX360E | `1440196924/HX360E` |
 | `jellyfin-harmonyos` | 1.0.4 | JellyFin | `chashaochang/JellyFin_HarmonyOS` |
 | `kazumi` | 2.4.1 | Kazumi | `ErBWs/Kazumi` |
+| `koma` | 1.4.0 | Koma | `honjow/Koma` |
 | `libretv-for-harmonyos` | 2.3.6 | LibreTV | `panhaichen-creator/LibreTV-for-HarmonyOS` |
 | `linysbrowser-next` | 2.1.1 | 冲浪喵 | `awaLiny2333/LinysBrowser_NEXT` |
-| `lnga-harmony` | 1.3.1 | LNGA | `apap6628114/lnga_harmony` |
+| `lnga-harmony` | 1.3.2 | LNGA | `apap6628114/lnga_harmony` |
 | `lovelyflash-jmcomic-harmonyos` | 1.1.4 | JMComic | `LovelyFlash/JMComic-HarmonyOS` |
 | `lvlian-view-hm` | 1.0.19 | 联文件 | `fhf2022/lvlian-view-hm` |
 | `lx-music-harmony` | 1.0.0 | 洛雪音乐 | `k-brother/lx-music-harmony` |
@@ -57,7 +59,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `mindustryark` | 1.3.3.2 | MindustryArk | `haohandc/MindustryArk` |
 | `mr` | 2026-09-12 | MR | `DandanLLab/mr` |
 | `neriplayer-harmonyos` | 1.4.0 | 音理音理! | `suyunxing/NeriPlayer-HarmonyOS` |
-| `nexhub` | 3.4.0 | NexHub | `nexhub-app/NexHub` |
+| `nexhub` | 3.5.0 | NexHub | `nexhub-app/NexHub` |
 | `nextn` | 1.0.9 | NextN | `erosTeam/NextN` |
 | `ohsidian` | latest | OHsidian | `HanversionOvO/OHSidian` |
 | `pilinara` | 2.1.6.1 | PiliNara | `dev4harmony/PiliNara` |
@@ -67,6 +69,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `s1-orange` | 1.5.2 | S1 Orange | `wly5556/S1-Orange` |
 | `tailscale-ohos` | 0.3.19 | Tailscale | `flypigJ/Tailscale-OHOS` |
 | `tunnelark` | 1.1.3 | 隧舟 TunnelArk | `RockyMtnWolf/TunnelArk` |
+| `venhm` | 1.0.11 | VenHM | `CangShui/VenHM` |
 | `vhome-release` | 2.6.14 | VHome (vae＋) | `muleos/VHome-release` |
 | `videojx` | HM | 影视链 | `xiaomoHM/videoJX` |
 | `winehua` | 1.0.31 | 万花 | `winehua/WineHua` |
@@ -84,7 +87,8 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `c001apk-ohos-releases` | 1.3.6 | 酷安 | `muleos/c001apk-ohos-releases` |
 | `calculatorx` | 1.6.5 | CalculatorX | `StartYR/CalculatorX` |
 | `catpawopen` | 2.0.3 | 影视猫 | `CatPawApp/CatPawOpen` |
-| `ecohub-for-ohos` | 1.4.2 | EcoHub | `fe-spark/EcoHub-for-OHOS` |
+| `chromium-desktop-ohos` | 1.0.1 | Chromium Desktop | `nimmi114514/chromium-desktop-ohos` |
+| `ecohub-for-ohos` | 1.4.4 | EcoHub | `fe-spark/EcoHub-for-OHOS` |
 | `fmphoto` | 1.4.2.12 | 飞马相册 | `jonas-pi/FMphoto` |
 | `freshrss-harmony` | 2.35 | FreshRSS | `wtronfi/FreshRSS-Harmony` |
 | `harflix` | 1.0.6 | Harflix | `Actrlq/Harflix` |
@@ -102,7 +106,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `nexte` | 1.3.8 | NextE | `erosTeam/NextE` |
 | `nexus-vpn-harmonyos` | 0.8.3 | Nexus | `xiaoli8571/Nexus-VPN-HarmonyOS` |
 | `niceleep` | 1.1.0 | 响入睡 | `qinshah/niceleep` |
-| `nipaplay-reload` | 1.11.11 | NipaPlay | `AimesSoft/NipaPlay-Reload` |
+| `nipaplay-reload` | 2.0.0 | NipaPlay | `AimesSoft/NipaPlay-Reload` |
 | `ohentai` | 0.5.4 | Ohentai | `Ibukitofu/Ohentai` |
 | `petrelgram` | 1.5.6 | Petrelgram | `miramira8295/Petrelgram` |
 | `picacomic-ohos` | 5.0.5 | Pica Comic | `nimmi114514/PicaComic_ohos` |
@@ -111,6 +115,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `shuati` | ShuaTi | 刷题宝 | `xiaomoHM/ShuaTi` |
 | `soc-search` | 1.0.25 | soc-search | `Amview/soc-search` |
 | `tieba-lite-harmony` | 1.4.0 | 贴吧 Lite | `137458/tieba-lite-harmony` |
+| `v2rayh` | 0.3.2 | v2rayH | `JuckyLee668/v2rayH` |
 | `weibopura` | 1.0.0 | 微博Pura | `haohaoai0/WeiboPura` |
 
 ### 鸿蒙电脑
@@ -125,7 +130,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `usbarc` | 1.0.1 | USBArc | `RockyMtnWolf/USBArc` |
 | `vlc-qt6-ohos` | 3.0.21 | VLC播放器 | `Aloereed/vlc-qt6-ohos` |
 
-合计 90 个 cask，未收录 25 个条目。
+合计 95 个 cask，未收录 25 个条目。
 
 ### 未收录的条目
 
@@ -143,7 +148,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | OpenTwit | 仓库没有可用的 Release |
 | Anx Reader | Release 里没有 .hap 或 .app 资产 |
 | 拷贝漫画 | 仓库没有可用的 Release |
-| Obsidian | 仓库没有可用的 Release |
+| Obsidian | 项目主页与下载页都不在 GitHub 上 |
 | Kelivo | Release 里没有 .hap 或 .app 资产 |
 | 存好 | 仓库没有可用的 Release |
 | Scrcpy | Release 里没有 .hap 或 .app 资产 |
