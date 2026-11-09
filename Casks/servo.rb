@@ -1,6 +1,6 @@
 cask "servo" do
-  version "0.7.0"
-  sha256 arm64_linux: "66c8fcdd555383768cbe13a31ca2f7c65a71e8a91e67bef302906b0dcb057c13"
+  version "0.8.0"
+  sha256 arm64_linux: "e92a7154c144e948105a59f2dca28e6e523fba9c57c7dee32f98e6a695fdc6e0"
 
   url "https://github.com/servo/servo/releases/download/v#{version}/servo-aarch64-linux-ohos.hap"
   name "Servo"

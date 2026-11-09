@@ -46,7 +46,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `hx360e` | 1.0.2 | HX360E | `1440196924/HX360E` |
 | `jellyfin-harmonyos` | 1.0.4 | JellyFin | `chashaochang/JellyFin_HarmonyOS` |
 | `kazumi` | 2.4.1 | Kazumi | `ErBWs/Kazumi` |
-| `koma` | 1.4.0 | Koma | `honjow/Koma` |
+| `koma` | 1.4.1 | Koma | `honjow/Koma` |
 | `libretv-for-harmonyos` | 2.3.6 | LibreTV | `panhaichen-creator/LibreTV-for-HarmonyOS` |
 | `linysbrowser-next` | 2.1.1 | 冲浪喵 | `awaLiny2333/LinysBrowser_NEXT` |
 | `lnga-harmony` | 1.3.2 | LNGA | `apap6628114/lnga_harmony` |
@@ -110,7 +110,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `ohentai` | 0.5.4 | Ohentai | `Ibukitofu/Ohentai` |
 | `petrelgram` | 1.5.6 | Petrelgram | `miramira8295/Petrelgram` |
 | `picacomic-ohos` | 5.0.5 | Pica Comic | `nimmi114514/PicaComic_ohos` |
-| `pixez-flutter-ohos` | 0.9.113.2 | PixEz | `bgli100/pixez-flutter-ohos` |
+| `pixez-flutter-ohos` | 0.9.114 | PixEz | `bgli100/pixez-flutter-ohos` |
 | `pokedex-next` | 1.0.0 | 宝可梦图鉴 | `Luxcis/Pokedex_Next` |
 | `shuati` | ShuaTi | 刷题宝 | `xiaomoHM/ShuaTi` |
 | `soc-search` | 1.0.25 | soc-search | `Amview/soc-search` |
@@ -126,7 +126,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `harmonix` | 0.0.11 | Harmonix | `hackeris/Harmonix` |
 | `oh-openttd` | 15.3 | OpenTTD | `TennousuAthena/OH-OpenTTD` |
 | `ohbittorrent` | 1.0.0 | OHBittorrent | `HanversionOvO/OHBittorrent` |
-| `servo` | 0.7.0 | Servo | `servo/servo` |
+| `servo` | 0.8.0 | Servo | `servo/servo` |
 | `usbarc` | 1.0.1 | USBArc | `RockyMtnWolf/USBArc` |
 | `vlc-qt6-ohos` | 3.0.21 | VLC播放器 | `Aloereed/vlc-qt6-ohos` |
 

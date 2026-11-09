@@ -1,8 +1,8 @@
 cask "koma" do
-  version "1.4.0"
-  sha256 arm64_linux: "425770f37ebdb190446f657dc398c61ad02925f5ad2645468157f174e8a8e409"
+  version "1.4.1"
+  sha256 arm64_linux: "ca46f1a9cca1d6ac2809465d5185ee0d195bab6f7e13a686322c6036e68f91df"
 
-  url "https://github.com/honjow/Koma/releases/download/v#{version}/Koma_1.4.0_ohos-release-unsigned.hap"
+  url "https://github.com/honjow/Koma/releases/download/v#{version}/Koma_1.4.1_ohos-release-unsigned.hap"
   name "Koma"
   desc "鸿蒙原生多源漫画书架与阅读器"
   homepage "https://github.com/honjow/Koma"
@@ -16,5 +16,5 @@ cask "koma" do
   depends_on :linux
   container type: :naked
 
-  ohos_app "Koma_1.4.0_ohos-release-unsigned.hap"
+  ohos_app "Koma_1.4.1_ohos-release-unsigned.hap"
 end
