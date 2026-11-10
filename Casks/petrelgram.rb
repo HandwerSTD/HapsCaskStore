@@ -1,8 +1,8 @@
 cask "petrelgram" do
-  version "1.5.6"
-  sha256 arm64_linux: "20a76e7c046bd21a0e944984d91037c6bb07fb54007d8b900d6298d6871045e5"
+  version "1.5.9"
+  sha256 arm64_linux: "6f34724181feb462892bab4bfab63603a1a988553b9d8a0a2561f36214e2e40e"
 
-  url "https://github.com/miramira8295/Petrelgram/releases/download/v#{version}/Petrelgram-1.5.6-unsigned.app.hap"
+  url "https://github.com/miramira8295/Petrelgram/releases/download/v#{version}/Petrelgram-1.5.9-unsigned.app.hap"
   name "Petrelgram"
   desc "第三方鸿蒙版，基于 TDLib 的 Telegram 客户端，支持多账号与音视频通话"
   homepage "https://github.com/miramira8295/Petrelgram"
@@ -16,5 +16,5 @@ cask "petrelgram" do
   depends_on :linux
   container type: :naked
 
-  ohos_app "Petrelgram-1.5.6-unsigned.app.hap"
+  ohos_app "Petrelgram-1.5.9-unsigned.app.hap"
 end

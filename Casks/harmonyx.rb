@@ -1,8 +1,8 @@
 cask "harmonyx" do
-  version "3.8.0"
-  sha256 arm64_linux: "56e03f90caa7e72ea8527e6109f08a56d2d729021b57776836397c8a358bf913"
+  version "3.9.0"
+  sha256 arm64_linux: "3f68442328d73aca29888df457dd6f4c88d77390c1d5278dffbb81920b944438"
 
-  url "https://github.com/haohaoai0/HarmonyX/releases/download/v#{version}/HarmonyX-v3.8.0-unsigned.hap"
+  url "https://github.com/haohaoai0/HarmonyX/releases/download/v#{version}/entry-default-signed.hap"
   name "Harmony X"
   desc "面向 HarmonyOS 的原生 X 客户端"
   homepage "https://github.com/haohaoai0/HarmonyX"
@@ -16,5 +16,5 @@ cask "harmonyx" do
   depends_on :linux
   container type: :naked
 
-  ohos_app "HarmonyX-v3.8.0-unsigned.hap"
+  ohos_app "entry-default-signed.hap"
 end

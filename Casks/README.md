@@ -39,7 +39,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `hapapp` | 1.7.4 | ClashBox | `xiaobaigroup/hapapp` |
 | `hapstore` | 1.0.2 | HapStore | `zhailinlang/hapstore` |
 | `harmonic` | 2.1.7 | Harmonic | `shanyan-wcx/Harmonic` |
-| `harmonyx` | 3.8.0 | Harmony X | `haohaoai0/HarmonyX` |
+| `harmonyx` | 3.9.0 | Harmony X | `haohaoai0/HarmonyX` |
 | `hlib` | 1.0.1 | 海阅 | `LZZLHY/hlib` |
 | `home-cloud-shield` | 0.1.0 | 栖云盾 | `Tlntin/home-cloud-shield` |
 | `homl` | 1.1.0 | HOML启动器 | `xiaobaigroup/HOML` |
@@ -108,14 +108,14 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `niceleep` | 1.1.0 | 响入睡 | `qinshah/niceleep` |
 | `nipaplay-reload` | 2.0.0 | NipaPlay | `AimesSoft/NipaPlay-Reload` |
 | `ohentai` | 0.5.4 | Ohentai | `Ibukitofu/Ohentai` |
-| `petrelgram` | 1.5.6 | Petrelgram | `miramira8295/Petrelgram` |
+| `petrelgram` | 1.5.9 | Petrelgram | `miramira8295/Petrelgram` |
 | `picacomic-ohos` | 5.0.5 | Pica Comic | `nimmi114514/PicaComic_ohos` |
 | `pixez-flutter-ohos` | 0.9.114 | PixEz | `bgli100/pixez-flutter-ohos` |
 | `pokedex-next` | 1.0.0 | 宝可梦图鉴 | `Luxcis/Pokedex_Next` |
 | `shuati` | ShuaTi | 刷题宝 | `xiaomoHM/ShuaTi` |
 | `soc-search` | 1.0.25 | soc-search | `Amview/soc-search` |
 | `tieba-lite-harmony` | 1.4.0 | 贴吧 Lite | `137458/tieba-lite-harmony` |
-| `v2rayh` | 0.3.2 | v2rayH | `JuckyLee668/v2rayH` |
+| `v2rayh` | 0.3.3 | v2rayH | `JuckyLee668/v2rayH` |
 | `weibopura` | 1.0.0 | 微博Pura | `haohaoai0/WeiboPura` |
 
 ### 鸿蒙电脑
