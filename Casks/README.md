@@ -24,7 +24,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 
 | cask | 版本 | 软件 | 上游仓库 |
 | --- | --- | --- | --- |
-| `aira-browser` | 3.9.1 | Aira | `mason173/aira-browser` |
+| `aira-browser` | 3.9.7 | Aira | `mason173/aira-browser` |
 | `amcl` | 1.0.6 | AMCL | `LZZLHY/amcl` |
 | `anich` | 1.5.27 | AniCh | `Sle2p/AniCh` |
 | `arkclash` | 0.1.1 | ArkClash | `VOD-Studio/ArkClash` |
@@ -46,7 +46,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `hx360e` | 1.0.2 | HX360E | `1440196924/HX360E` |
 | `jellyfin-harmonyos` | 1.0.4 | JellyFin | `chashaochang/JellyFin_HarmonyOS` |
 | `kazumi` | 2.4.1 | Kazumi | `ErBWs/Kazumi` |
-| `koma` | 1.4.1 | Koma | `honjow/Koma` |
+| `koma` | 1.4.3 | Koma | `honjow/Koma` |
 | `libretv-for-harmonyos` | 2.3.6 | LibreTV | `panhaichen-creator/LibreTV-for-HarmonyOS` |
 | `linysbrowser-next` | 2.1.1 | 冲浪喵 | `awaLiny2333/LinysBrowser_NEXT` |
 | `lnga-harmony` | 1.3.2 | LNGA | `apap6628114/lnga_harmony` |
@@ -88,7 +88,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `calculatorx` | 1.6.5 | CalculatorX | `StartYR/CalculatorX` |
 | `catpawopen` | 2.0.3 | 影视猫 | `CatPawApp/CatPawOpen` |
 | `chromium-desktop-ohos` | 1.0.1 | Chromium Desktop | `nimmi114514/chromium-desktop-ohos` |
-| `ecohub-for-ohos` | 1.4.4 | EcoHub | `fe-spark/EcoHub-for-OHOS` |
+| `ecohub-for-ohos` | 1.4.7 | EcoHub | `fe-spark/EcoHub-for-OHOS` |
 | `fmphoto` | 1.4.2.12 | 飞马相册 | `jonas-pi/FMphoto` |
 | `freshrss-harmony` | 2.35 | FreshRSS | `wtronfi/FreshRSS-Harmony` |
 | `harflix` | 1.0.6 | Harflix | `Actrlq/Harflix` |
