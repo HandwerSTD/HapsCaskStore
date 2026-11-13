@@ -46,7 +46,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `hx360e` | 1.0.2 | HX360E | `1440196924/HX360E` |
 | `jellyfin-harmonyos` | 1.0.4 | JellyFin | `chashaochang/JellyFin_HarmonyOS` |
 | `kazumi` | 2.4.1 | Kazumi | `ErBWs/Kazumi` |
-| `koma` | 1.4.4 | Koma | `honjow/Koma` |
+| `koma` | 1.4.5 | Koma | `honjow/Koma` |
 | `libretv-for-harmonyos` | 2.3.6 | LibreTV | `panhaichen-creator/LibreTV-for-HarmonyOS` |
 | `linysbrowser-next` | 2.1.1 | 冲浪喵 | `awaLiny2333/LinysBrowser_NEXT` |
 | `lnga-harmony` | 1.3.2 | LNGA | `apap6628114/lnga_harmony` |
@@ -65,7 +65,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `pilinara` | 2.1.6.1 | PiliNara | `dev4harmony/PiliNara` |
 | `piliplus` | 2.1.6.2 | PiliPlus | `dev4harmony/PiliPlus` |
 | `piliplusx` | 1.1.6.4 | PiliPlusX | `cnctem/PiliPlusX` |
-| `quietstart` | 1.2.9 | 轻启 | `thx853068675-dev/quietstart` |
+| `quietstart` | 1.3.0 | 轻启 | `thx853068675-dev/quietstart` |
 | `s1-orange` | 1.5.2 | S1 Orange | `wly5556/S1-Orange` |
 | `tailscale-ohos` | 0.3.19 | Tailscale | `flypigJ/Tailscale-OHOS` |
 | `tunnelark` | 1.1.3 | 隧舟 TunnelArk | `RockyMtnWolf/TunnelArk` |
@@ -104,7 +104,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `neon-ohos` | 1.0.0 | Neon | `shokakucarrier/neon-ohos` |
 | `next2v` | 1.0.14 | Next2V | `honjow/Next2V` |
 | `nexte` | 1.3.8 | NextE | `erosTeam/NextE` |
-| `nexus-vpn-harmonyos` | 0.8.3 | Nexus | `xiaoli8571/Nexus-VPN-HarmonyOS` |
+| `nexus-vpn-harmonyos` | 0.8.9 | Nexus | `xiaoli8571/Nexus-VPN-HarmonyOS` |
 | `niceleep` | 1.1.0 | 响入睡 | `qinshah/niceleep` |
 | `nipaplay-reload` | 2.0.0 | NipaPlay | `AimesSoft/NipaPlay-Reload` |
 | `ohentai` | 0.5.4 | Ohentai | `Ibukitofu/Ohentai` |
@@ -156,7 +156,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | 轻阅读 | Release 里没有 .hap 或 .app 资产 |
 | KeePassHO | Release 里没有 .hap 或 .app 资产 |
 | KDAuth | Release 里没有 .hap 或 .app 资产 |
-| 简听 | 仓库没有可用的 Release |
+| 简听 | Release 里没有 .hap 或 .app 资产 |
 | 阅韵心读 | 仓库没有可用的 Release |
 | 鸿蒙调试助手（HDA） | 项目主页与下载页都不在 GitHub 上 |
 | Termony | 仓库没有可用的 Release |

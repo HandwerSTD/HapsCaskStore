@@ -1,6 +1,6 @@
 cask "neriplayer-harmonyos" do
   version "1.4.0"
-  sha256 arm64_linux: "2a88651d853134318df5895af0bd893d4e8650840322385bd5ab1014e6268828"
+  sha256 arm64_linux: "299db564e7df8d139493f33aca81209aeef3a96d7c8536a32525a3ed8bd0d9a2"
 
   url "https://github.com/suyunxing/NeriPlayer-HarmonyOS/releases/download/v#{version}/NeriPlayer-v1.4.0-unsigned.hap"
   name "音理音理!"
