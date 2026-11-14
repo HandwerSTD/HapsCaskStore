@@ -1,8 +1,8 @@
 cask "amcl" do
-  version "1.0.6"
-  sha256 arm64_linux: "f6b597c49a5abf2f143bba955dab7facfba52039204b6bb264aac8def7979796"
+  version "1.0.7"
+  sha256 arm64_linux: "4cc219cd47937e8f882fd2792733f31053ff2b75725fede864dbac271517bf4d"
 
-  url "https://github.com/LZZLHY/amcl/releases/download/v#{version}/amcl-v1.0.6-sideload-unsigned.hap"
+  url "https://github.com/LZZLHY/amcl/releases/download/v#{version}/amcl-v1.0.7-sideload-unsigned.hap"
   name "AMCL"
   desc "鸿蒙版全量Java版我的世界启动器"
   homepage "https://github.com/LZZLHY/amcl"
@@ -16,5 +16,5 @@ cask "amcl" do
   depends_on :linux
   container type: :naked
 
-  ohos_app "amcl-v1.0.6-sideload-unsigned.hap"
+  ohos_app "amcl-v1.0.7-sideload-unsigned.hap"
 end

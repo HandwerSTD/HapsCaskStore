@@ -25,11 +25,11 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | cask | 版本 | 软件 | 上游仓库 |
 | --- | --- | --- | --- |
 | `aira-browser` | 3.9.7 | Aira | `mason173/aira-browser` |
-| `amcl` | 1.0.6 | AMCL | `LZZLHY/amcl` |
+| `amcl` | 1.0.7 | AMCL | `LZZLHY/amcl` |
 | `anich` | 1.5.27 | AniCh | `Sle2p/AniCh` |
 | `arkclash` | 0.1.1 | ArkClash | `VOD-Studio/ArkClash` |
 | `audiobookshelf-harmonyos` | 2.3.0 | Harmshelf | `shanyan-wcx/Audiobookshelf-HarmonyOS` |
-| `bettbox` | 1.19.7 | Bettbox | `htoay/Bettbox` |
+| `bettbox` | 1.19.8 | Bettbox | `htoay/Bettbox` |
 | `bika-harmonyos` | 1.5.1 | 哔咔 | `LoMoCatAp/Bika-HarmonyOS` |
 | `collection-ohos` | 1.29.0 | 收藏 | `muleos/collection_ohos` |
 | `diplay-harmony` | 0.13.11 | DiPlay Harmony | `Tedfaraday/DiPlay-Harmony` |
@@ -59,7 +59,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `mindustryark` | 1.3.3.2 | MindustryArk | `haohandc/MindustryArk` |
 | `mr` | 2026-09-12 | MR | `DandanLLab/mr` |
 | `neriplayer-harmonyos` | 1.4.0 | 音理音理! | `suyunxing/NeriPlayer-HarmonyOS` |
-| `nexhub` | 3.5.0 | NexHub | `nexhub-app/NexHub` |
+| `nexhub` | 3.6.0 | NexHub | `nexhub-app/NexHub` |
 | `nextn` | 1.0.9 | NextN | `erosTeam/NextN` |
 | `ohsidian` | latest | OHsidian | `HanversionOvO/OHSidian` |
 | `pilinara` | 2.1.6.1 | PiliNara | `dev4harmony/PiliNara` |
@@ -87,7 +87,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `c001apk-ohos-releases` | 1.3.6 | 酷安 | `muleos/c001apk-ohos-releases` |
 | `calculatorx` | 1.6.5 | CalculatorX | `StartYR/CalculatorX` |
 | `catpawopen` | 2.0.3 | 影视猫 | `CatPawApp/CatPawOpen` |
-| `chromium-desktop-ohos` | 1.0.1 | Chromium Desktop | `nimmi114514/chromium-desktop-ohos` |
+| `chromium-desktop-ohos` | 1.0.2 | Chromium Desktop | `nimmi114514/chromium-desktop-ohos` |
 | `ecohub-for-ohos` | 1.4.7 | EcoHub | `fe-spark/EcoHub-for-OHOS` |
 | `fmphoto` | 1.4.2.12 | 飞马相册 | `jonas-pi/FMphoto` |
 | `freshrss-harmony` | 2.35 | FreshRSS | `wtronfi/FreshRSS-Harmony` |
@@ -115,7 +115,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `shuati` | ShuaTi | 刷题宝 | `xiaomoHM/ShuaTi` |
 | `soc-search` | 1.0.25 | soc-search | `Amview/soc-search` |
 | `tieba-lite-harmony` | 1.4.0 | 贴吧 Lite | `137458/tieba-lite-harmony` |
-| `v2rayh` | 0.3.3 | v2rayH | `JuckyLee668/v2rayH` |
+| `v2rayh` | 0.3.4 | v2rayH | `JuckyLee668/v2rayH` |
 | `weibopura` | 1.0.0 | 微博Pura | `haohaoai0/WeiboPura` |
 
 ### 鸿蒙电脑

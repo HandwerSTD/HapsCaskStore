@@ -1,8 +1,8 @@
 cask "v2rayh" do
-  version "0.3.3"
-  sha256 arm64_linux: "c6580c86881a4fa7fb826ae84f7c3437cd1f71c6ff70ce26b091cbb8d7fffc11"
+  version "0.3.4"
+  sha256 arm64_linux: "e1ffcf57bf6eb688606e99bfb83808b4aac2975f414440ab1f89f04c9f4c8442"
 
-  url "https://github.com/JuckyLee668/v2rayH/releases/download/v#{version}/v2rayH-0.3.3-unsigned.hap"
+  url "https://github.com/JuckyLee668/v2rayH/releases/download/v#{version}/v2rayH-0.3.4-unsigned.hap"
   name "v2rayH"
   desc "鸿蒙原生代理客户端，支持 Xray 与 Mihomo 内核"
   homepage "https://github.com/JuckyLee668/v2rayH"
@@ -16,5 +16,5 @@ cask "v2rayh" do
   depends_on :linux
   container type: :naked
 
-  ohos_app "v2rayH-0.3.3-unsigned.hap"
+  ohos_app "v2rayH-0.3.4-unsigned.hap"
 end

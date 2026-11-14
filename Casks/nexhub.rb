@@ -1,6 +1,6 @@
 cask "nexhub" do
-  version "3.5.0"
-  sha256 arm64_linux: "78fdca79831673e9db64925d05bb1beb0b5fdd719456dd7539ce440e512ddb4b"
+  version "3.6.0"
+  sha256 arm64_linux: "10bcaecbb17492c523ba2b64f19232ba34cfe24c6a09d1c04c933dcb54ae6955"
 
   url "https://github.com/nexhub-app/NexHub/releases/download/v#{version}/NexHub-ohos-arm64-unsigned.hap"
   name "NexHub"

@@ -1,8 +1,8 @@
 cask "chromium-desktop-ohos" do
-  version "1.0.1"
-  sha256 arm64_linux: "529eddf85f55c44958bde854a112024d70ad4fd1f0ed5db1a7dc61dc823a5c10"
+  version "1.0.2"
+  sha256 arm64_linux: "666d241a02c86d9610e8dae4c2fdcc7d153f71079473e4ec4c5d0a2adf51b5e9"
 
-  url "https://github.com/nimmi114514/chromium-desktop-ohos/releases/download/v#{version}/chromium-158.0.8116.0-ohos-api26-arm64-release-unsigned.hap"
+  url "https://github.com/nimmi114514/chromium-desktop-ohos/releases/download/v#{version}/chromium-default-unsigned.hap"
   name "Chromium Desktop"
   desc "鸿蒙平板与电脑上的 Chromium 桌面浏览器"
   homepage "https://github.com/nimmi114514/chromium-desktop-ohos"
@@ -16,5 +16,5 @@ cask "chromium-desktop-ohos" do
   depends_on :linux
   container type: :naked
 
-  ohos_app "chromium-158.0.8116.0-ohos-api26-arm64-release-unsigned.hap"
+  ohos_app "chromium-default-unsigned.hap"
 end
