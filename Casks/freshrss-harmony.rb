@@ -1,8 +1,8 @@
 cask "freshrss-harmony" do
-  version "2.35"
-  sha256 arm64_linux: "fc55940dd574fb4bc75851e4dffb635a655ffb3f82ecf5ac161c443b6c4ca23f"
+  version "2.56"
+  sha256 arm64_linux: "07b3f6a0068e8bc381c096f100f1168ebdf4063d3668a122881d3ea1e23e4b63"
 
-  url "https://github.com/wtronfi/FreshRSS-Harmony/releases/download/#{version}/FreshRSS-2.35-2026110501-unsigned.hap"
+  url "https://github.com/wtronfi/FreshRSS-Harmony/releases/download/#{version}/FreshRSS-2.56-2026111537-unsigned.hap"
   name "FreshRSS"
   desc "自托管 FreshRSS 鸿蒙客户端，支持离线阅读"
   homepage "https://github.com/wtronfi/FreshRSS-Harmony"
@@ -16,5 +16,5 @@ cask "freshrss-harmony" do
   depends_on :linux
   container type: :naked
 
-  ohos_app "FreshRSS-2.35-2026110501-unsigned.hap"
+  ohos_app "FreshRSS-2.56-2026111537-unsigned.hap"
 end

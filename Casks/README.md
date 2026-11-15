@@ -27,7 +27,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `aira-browser` | 3.9.7 | Aira | `mason173/aira-browser` |
 | `amcl` | 1.0.7 | AMCL | `LZZLHY/amcl` |
 | `anich` | 1.5.27 | AniCh | `Sle2p/AniCh` |
-| `arkclash` | 0.1.1 | ArkClash | `VOD-Studio/ArkClash` |
+| `arkclash` | 0.5.1 | ArkClash | `VOD-Studio/ArkClash` |
 | `audiobookshelf-harmonyos` | 2.3.0 | Harmshelf | `shanyan-wcx/Audiobookshelf-HarmonyOS` |
 | `bettbox` | 1.19.8 | Bettbox | `htoay/Bettbox` |
 | `bika-harmonyos` | 1.5.1 | 哔咔 | `LoMoCatAp/Bika-HarmonyOS` |
@@ -41,6 +41,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `harmonic` | 2.1.7 | Harmonic | `shanyan-wcx/Harmonic` |
 | `harmonyx` | 3.9.0 | Harmony X | `haohaoai0/HarmonyX` |
 | `hlib` | 1.0.1 | 海阅 | `LZZLHY/hlib` |
+| `hmos-qwitter` | 0.4.78 | Qwitter | `llnode/hmos-qwitter` |
 | `home-cloud-shield` | 0.1.0 | 栖云盾 | `Tlntin/home-cloud-shield` |
 | `homl` | 1.1.0 | HOML启动器 | `xiaobaigroup/HOML` |
 | `hx360e` | 1.0.2 | HX360E | `1440196924/HX360E` |
@@ -62,12 +63,13 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `nexhub` | 3.6.0 | NexHub | `nexhub-app/NexHub` |
 | `nextn` | 1.0.9 | NextN | `erosTeam/NextN` |
 | `ohsidian` | latest | OHsidian | `HanversionOvO/OHSidian` |
-| `pilinara` | 2.1.6.1 | PiliNara | `dev4harmony/PiliNara` |
+| `pilinara` | 2.6.2 | PiliNara | `dev4harmony/PiliNara` |
 | `piliplus` | 2.1.6.2 | PiliPlus | `dev4harmony/PiliPlus` |
 | `piliplusx` | 1.1.6.4 | PiliPlusX | `cnctem/PiliPlusX` |
 | `quietstart` | 1.3.0 | 轻启 | `thx853068675-dev/quietstart` |
 | `s1-orange` | 1.5.2 | S1 Orange | `wly5556/S1-Orange` |
 | `tailscale-ohos` | 0.3.19 | Tailscale | `flypigJ/Tailscale-OHOS` |
+| `tiktoh` | 0.2.0 | TikToh | `DUDUXXR2/tiktoh` |
 | `tunnelark` | 1.1.3 | 隧舟 TunnelArk | `RockyMtnWolf/TunnelArk` |
 | `venhm` | 1.0.11 | VenHM | `CangShui/VenHM` |
 | `vhome-release` | 2.6.14 | VHome (vae＋) | `muleos/VHome-release` |
@@ -87,10 +89,10 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `c001apk-ohos-releases` | 1.3.6 | 酷安 | `muleos/c001apk-ohos-releases` |
 | `calculatorx` | 1.6.5 | CalculatorX | `StartYR/CalculatorX` |
 | `catpawopen` | 2.0.3 | 影视猫 | `CatPawApp/CatPawOpen` |
-| `chromium-desktop-ohos` | 1.0.2 | Chromium Desktop | `nimmi114514/chromium-desktop-ohos` |
+| `chromium-desktop-ohos` | 1.0.3 | Chromium Desktop | `nimmi114514/chromium-desktop-ohos` |
 | `ecohub-for-ohos` | 1.4.7 | EcoHub | `fe-spark/EcoHub-for-OHOS` |
 | `fmphoto` | 1.4.2.12 | 飞马相册 | `jonas-pi/FMphoto` |
-| `freshrss-harmony` | 2.35 | FreshRSS | `wtronfi/FreshRSS-Harmony` |
+| `freshrss-harmony` | 2.56 | FreshRSS | `wtronfi/FreshRSS-Harmony` |
 | `harflix` | 1.0.6 | Harflix | `Actrlq/Harflix` |
 | `harmony-kslmkf-karing-hap` | 1.11.0 | Karing | `ks-lm-kf/harmony-kslmkf-karing-hap` |
 | `hey` | 1.3.4 | Hey | `xiaoli8571/Hey` |
@@ -110,6 +112,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `ohentai` | 0.5.4 | Ohentai | `Ibukitofu/Ohentai` |
 | `petrelgram` | 1.5.9 | Petrelgram | `miramira8295/Petrelgram` |
 | `picacomic-ohos` | 5.0.5 | Pica Comic | `nimmi114514/PicaComic_ohos` |
+| `pinmony` | 3.0.0 | Pinmony | `Torotar/Pinmony` |
 | `pixez-flutter-ohos` | 0.9.114 | PixEz | `bgli100/pixez-flutter-ohos` |
 | `pokedex-next` | 1.0.0 | 宝可梦图鉴 | `Luxcis/Pokedex_Next` |
 | `shuati` | ShuaTi | 刷题宝 | `xiaomoHM/ShuaTi` |
@@ -130,7 +133,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `usbarc` | 1.0.1 | USBArc | `RockyMtnWolf/USBArc` |
 | `vlc-qt6-ohos` | 3.0.21 | VLC播放器 | `Aloereed/vlc-qt6-ohos` |
 
-合计 95 个 cask，未收录 25 个条目。
+合计 98 个 cask，未收录 25 个条目。
 
 ### 未收录的条目
 

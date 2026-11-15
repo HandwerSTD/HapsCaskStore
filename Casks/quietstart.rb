@@ -1,6 +1,6 @@
 cask "quietstart" do
   version "1.3.0"
-  sha256 arm64_linux: "dc2aa6d84057661747dada2a1b6727eacbe0b50415931227e02d6bde390b517f"
+  sha256 arm64_linux: "650be12ea5e3caec6aa9ffbe26cb94068c4e5635dac895590989da27ca919a8d"
 
   url "https://github.com/thx853068675-dev/quietstart/releases/download/v#{version}-preview-130001/quietstart-1.3.0-preview-130001.hap"
   name "轻启"
