@@ -30,7 +30,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `arkclash` | 0.5.1 | ArkClash | `VOD-Studio/ArkClash` |
 | `audiobookshelf-harmonyos` | 2.3.0 | Harmshelf | `shanyan-wcx/Audiobookshelf-HarmonyOS` |
 | `bettbox` | 1.19.8 | Bettbox | `htoay/Bettbox` |
-| `bika-harmonyos` | 1.5.1 | 哔咔 | `LoMoCatAp/Bika-HarmonyOS` |
+| `bika-harmonyos` | 1.5.2 | 哔咔 | `LoMoCatAp/Bika-HarmonyOS` |
 | `collection-ohos` | 1.29.0 | 收藏 | `muleos/collection_ohos` |
 | `diplay-harmony` | 0.13.11 | DiPlay Harmony | `Tedfaraday/DiPlay-Harmony` |
 | `etohos` | 1.0.9 | Etohos | `collaborative-creation/etohos` |
@@ -41,18 +41,18 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `harmonic` | 2.1.7 | Harmonic | `shanyan-wcx/Harmonic` |
 | `harmonyx` | 3.9.0 | Harmony X | `haohaoai0/HarmonyX` |
 | `hlib` | 1.0.1 | 海阅 | `LZZLHY/hlib` |
-| `hmos-qwitter` | 0.4.78 | Qwitter | `llnode/hmos-qwitter` |
+| `hmos-qwitter` | 0.4.84 | Qwitter | `llnode/hmos-qwitter` |
 | `home-cloud-shield` | 0.1.0 | 栖云盾 | `Tlntin/home-cloud-shield` |
 | `homl` | 1.1.0 | HOML启动器 | `xiaobaigroup/HOML` |
 | `hx360e` | 1.0.2 | HX360E | `1440196924/HX360E` |
 | `jellyfin-harmonyos` | 1.0.4 | JellyFin | `chashaochang/JellyFin_HarmonyOS` |
 | `kazumi` | 2.4.1 | Kazumi | `ErBWs/Kazumi` |
-| `koma` | 1.4.5 | Koma | `honjow/Koma` |
+| `koma` | 1.5.1 | Koma | `honjow/Koma` |
 | `libretv-for-harmonyos` | 2.3.6 | LibreTV | `panhaichen-creator/LibreTV-for-HarmonyOS` |
 | `linysbrowser-next` | 2.1.1 | 冲浪喵 | `awaLiny2333/LinysBrowser_NEXT` |
 | `lnga-harmony` | 1.3.2 | LNGA | `apap6628114/lnga_harmony` |
 | `lovelyflash-jmcomic-harmonyos` | 1.1.4 | JMComic | `LovelyFlash/JMComic-HarmonyOS` |
-| `lvlian-view-hm` | 1.0.19 | 联文件 | `fhf2022/lvlian-view-hm` |
+| `lvlian-view-hm` | 1.0.20 | 联文件 | `fhf2022/lvlian-view-hm` |
 | `lx-music-harmony` | 1.0.0 | 洛雪音乐 | `k-brother/lx-music-harmony` |
 | `mcb-ohos` | 1.2.0 | Minecraft Box | `lxdklp/MCB_OHOS` |
 | `melotopia-hmos` | 1.15.3 | Melotopia | `Chenlvin/Melotopia-HMOS` |
@@ -69,7 +69,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `quietstart` | 1.3.0 | 轻启 | `thx853068675-dev/quietstart` |
 | `s1-orange` | 1.5.2 | S1 Orange | `wly5556/S1-Orange` |
 | `tailscale-ohos` | 0.3.19 | Tailscale | `flypigJ/Tailscale-OHOS` |
-| `tiktoh` | 0.2.0 | TikToh | `DUDUXXR2/tiktoh` |
+| `tiktoh` | 0.2.3 | TikToh | `DUDUXXR2/tiktoh` |
 | `tunnelark` | 1.1.3 | 隧舟 TunnelArk | `RockyMtnWolf/TunnelArk` |
 | `venhm` | 1.0.11 | VenHM | `CangShui/VenHM` |
 | `vhome-release` | 2.6.14 | VHome (vae＋) | `muleos/VHome-release` |
@@ -97,7 +97,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `harmony-kslmkf-karing-hap` | 1.11.0 | Karing | `ks-lm-kf/harmony-kslmkf-karing-hap` |
 | `hey` | 1.3.4 | Hey | `xiaoli8571/Hey` |
 | `homenapod` | 1.0.19 | HomenaPod | `TomoeMami/HomenaPod` |
-| `homowarden` | 2.0.3 | Homowarden | `DreamistW/Homowarden` |
+| `homowarden` | 2.0.4 | Homowarden | `DreamistW/Homowarden` |
 | `immich-ohos` | 3.3.5 | immich | `dgh1818/immich_ohos` |
 | `legado-harmony` | 1.0.6.218 | 开源阅读 | `mgz0227/legado-Harmony` |
 | `livify-ohos` | 1.1.0 | 聚映 | `yabi-zzh/livify-ohos` |

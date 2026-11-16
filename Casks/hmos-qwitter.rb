@@ -1,8 +1,8 @@
 cask "hmos-qwitter" do
-  version "0.4.78"
-  sha256 arm64_linux: "23acea09bc396c780f0547382f4fdce5f33c0ae2d495530c3ce80b8e945c35b6"
+  version "0.4.84"
+  sha256 arm64_linux: "0df66ddcaef44ecc295b2c83983d8f3ee326951e5bf11fdd4c9363e714d67e1e"
 
-  url "https://github.com/llnode/hmos-qwitter/releases/download/v#{version}/Qwitter-0.4.78-unsigned.hap"
+  url "https://github.com/llnode/hmos-qwitter/releases/download/v#{version}/Qwitter-0.4.84-unsigned.hap"
   name "Qwitter"
   desc "鸿蒙版 X 客户端，支持时间线、通知与聊天"
   homepage "https://github.com/llnode/hmos-qwitter"
@@ -16,5 +16,5 @@ cask "hmos-qwitter" do
   depends_on :linux
   container type: :naked
 
-  ohos_app "Qwitter-0.4.78-unsigned.hap"
+  ohos_app "Qwitter-0.4.84-unsigned.hap"
 end

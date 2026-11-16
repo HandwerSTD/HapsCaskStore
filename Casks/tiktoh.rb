@@ -1,8 +1,8 @@
 cask "tiktoh" do
-  version "0.2.0"
-  sha256 arm64_linux: "4fd0d6e18a1707c2608a38cb211b1f94a97ce6a7ec05c7906a0dd82c03049129"
+  version "0.2.3"
+  sha256 arm64_linux: "cdf2c53f24ec0ef5aeb9532a06e8c63cb226fc2fe8c97a7aa94a5605a250a160"
 
-  url "https://github.com/DUDUXXR2/tiktoh/releases/download/v#{version}/TikToh-0.2.0-unsigned.hap"
+  url "https://github.com/DUDUXXR2/tiktoh/releases/download/v#{version}/TikToh-0.2.3-unsigned.hap"
   name "TikToh"
   desc "鸿蒙短视频客户端，支持 TikTok 与抖音浏览"
   homepage "https://github.com/DUDUXXR2/tiktoh"
@@ -16,5 +16,5 @@ cask "tiktoh" do
   depends_on :linux
   container type: :naked
 
-  ohos_app "TikToh-0.2.0-unsigned.hap"
+  ohos_app "TikToh-0.2.3-unsigned.hap"
 end
