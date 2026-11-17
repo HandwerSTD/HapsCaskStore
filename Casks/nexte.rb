@@ -1,8 +1,8 @@
 cask "nexte" do
-  version "1.3.8"
-  sha256 arm64_linux: "f36da90dc9fe86aa693dfe70979c27cb0a79f98c53213dce1eed01ed81e1cdf9"
+  version "1.3.9"
+  sha256 arm64_linux: "20d9bbd7711ff4322f28ab7612a042cc3a0db831348891ff023e959563712800"
 
-  url "https://github.com/erosTeam/NextE/releases/download/v#{version}/NextE_1.3.8_ohos-release-unsigned.hap"
+  url "https://github.com/erosTeam/NextE/releases/download/v#{version}/NextE_1.3.9_ohos-release-unsigned.hap"
   name "NextE"
   desc "鸿蒙原生E-Hentai/ExHentai客户端，支持画廊浏览与下载"
   homepage "https://github.com/erosTeam/NextE"
@@ -16,5 +16,5 @@ cask "nexte" do
   depends_on :linux
   container type: :naked
 
-  ohos_app "NextE_1.3.8_ohos-release-unsigned.hap"
+  ohos_app "NextE_1.3.9_ohos-release-unsigned.hap"
 end

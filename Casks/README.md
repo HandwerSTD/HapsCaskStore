@@ -41,17 +41,17 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `harmonic` | 2.1.7 | Harmonic | `shanyan-wcx/Harmonic` |
 | `harmonyx` | 3.9.0 | Harmony X | `haohaoai0/HarmonyX` |
 | `hlib` | 1.0.1 | 海阅 | `LZZLHY/hlib` |
-| `hmos-qwitter` | 0.4.84 | Qwitter | `llnode/hmos-qwitter` |
+| `hmos-qwitter` | 0.4.93 | Qwitter | `llnode/hmos-qwitter` |
 | `home-cloud-shield` | 0.1.0 | 栖云盾 | `Tlntin/home-cloud-shield` |
 | `homl` | 1.1.0 | HOML启动器 | `xiaobaigroup/HOML` |
 | `hx360e` | 1.0.2 | HX360E | `1440196924/HX360E` |
 | `jellyfin-harmonyos` | 1.0.4 | JellyFin | `chashaochang/JellyFin_HarmonyOS` |
 | `kazumi` | 2.4.1 | Kazumi | `ErBWs/Kazumi` |
-| `koma` | 1.5.1 | Koma | `honjow/Koma` |
+| `koma` | 1.5.2 | Koma | `honjow/Koma` |
 | `libretv-for-harmonyos` | 2.3.6 | LibreTV | `panhaichen-creator/LibreTV-for-HarmonyOS` |
 | `linysbrowser-next` | 2.1.1 | 冲浪喵 | `awaLiny2333/LinysBrowser_NEXT` |
 | `lnga-harmony` | 1.3.2 | LNGA | `apap6628114/lnga_harmony` |
-| `lovelyflash-jmcomic-harmonyos` | 1.1.4 | JMComic | `LovelyFlash/JMComic-HarmonyOS` |
+| `lovelyflash-jmcomic-harmonyos` | 1.1.5 | JMComic | `LovelyFlash/JMComic-HarmonyOS` |
 | `lvlian-view-hm` | 1.0.20 | 联文件 | `fhf2022/lvlian-view-hm` |
 | `lx-music-harmony` | 1.0.0 | 洛雪音乐 | `k-brother/lx-music-harmony` |
 | `mcb-ohos` | 1.2.0 | Minecraft Box | `lxdklp/MCB_OHOS` |
@@ -59,7 +59,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `miha-hm` | 1.1.9 | 鸿米家 | `MrCashmere/miha_hm` |
 | `mindustryark` | 1.3.3.2 | MindustryArk | `haohandc/MindustryArk` |
 | `mr` | 2026-09-12 | MR | `DandanLLab/mr` |
-| `neriplayer-harmonyos` | 1.4.0 | 音理音理! | `suyunxing/NeriPlayer-HarmonyOS` |
+| `neriplayer-harmonyos` | 1.5.0 | 音理音理! | `suyunxing/NeriPlayer-HarmonyOS` |
 | `nexhub` | 3.6.0 | NexHub | `nexhub-app/NexHub` |
 | `nextn` | 1.0.9 | NextN | `erosTeam/NextN` |
 | `ohsidian` | latest | OHsidian | `HanversionOvO/OHSidian` |
@@ -105,7 +105,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `nekobox4harmony` | 2.7.0 | NekoBox | `xiaoli8571/NekoBox4Harmony` |
 | `neon-ohos` | 1.0.0 | Neon | `shokakucarrier/neon-ohos` |
 | `next2v` | 1.0.14 | Next2V | `honjow/Next2V` |
-| `nexte` | 1.3.8 | NextE | `erosTeam/NextE` |
+| `nexte` | 1.3.9 | NextE | `erosTeam/NextE` |
 | `nexus-vpn-harmonyos` | 0.8.9 | Nexus | `xiaoli8571/Nexus-VPN-HarmonyOS` |
 | `niceleep` | 1.1.0 | 响入睡 | `qinshah/niceleep` |
 | `nipaplay-reload` | 2.0.0 | NipaPlay | `AimesSoft/NipaPlay-Reload` |
@@ -118,7 +118,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `shuati` | ShuaTi | 刷题宝 | `xiaomoHM/ShuaTi` |
 | `soc-search` | 1.0.25 | soc-search | `Amview/soc-search` |
 | `tieba-lite-harmony` | 1.4.0 | 贴吧 Lite | `137458/tieba-lite-harmony` |
-| `v2rayh` | 0.3.4 | v2rayH | `JuckyLee668/v2rayH` |
+| `v2rayh` | 0.3.5 | v2rayH | `JuckyLee668/v2rayH` |
 | `weibopura` | 1.0.0 | 微博Pura | `haohaoai0/WeiboPura` |
 
 ### 鸿蒙电脑

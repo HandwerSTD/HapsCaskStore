@@ -1,8 +1,8 @@
 cask "neriplayer-harmonyos" do
-  version "1.4.0"
-  sha256 arm64_linux: "299db564e7df8d139493f33aca81209aeef3a96d7c8536a32525a3ed8bd0d9a2"
+  version "1.5.0"
+  sha256 arm64_linux: "0fda4e98a0777fce758b4f22962cb6af3fca9d52b2d7040be39c57bcbb3b2f23"
 
-  url "https://github.com/suyunxing/NeriPlayer-HarmonyOS/releases/download/v#{version}/NeriPlayer-v1.4.0-unsigned.hap"
+  url "https://github.com/suyunxing/NeriPlayer-HarmonyOS/releases/download/v#{version}-rc.1/NeriPlayer-v1.5.0-rc.1-unsigned.hap"
   name "音理音理!"
   desc "鸿蒙多源音乐播放器，支持网易云与 B 站音频"
   homepage "https://github.com/suyunxing/NeriPlayer-HarmonyOS"
@@ -16,5 +16,5 @@ cask "neriplayer-harmonyos" do
   depends_on :linux
   container type: :naked
 
-  ohos_app "NeriPlayer-v1.4.0-unsigned.hap"
+  ohos_app "NeriPlayer-v1.5.0-rc.1-unsigned.hap"
 end
