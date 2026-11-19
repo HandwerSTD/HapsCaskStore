@@ -31,6 +31,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `audiobookshelf-harmonyos` | 2.3.0 | Harmshelf | `shanyan-wcx/Audiobookshelf-HarmonyOS` |
 | `bettbox` | 1.19.8 | Bettbox | `htoay/Bettbox` |
 | `bika-harmonyos` | 1.5.2 | 哔咔 | `LoMoCatAp/Bika-HarmonyOS` |
+| `bilimusic` | 1.3.9 | BiliMusic | `chai2shi-spec/BiliMusic` |
 | `collection-ohos` | 1.29.0 | 收藏 | `muleos/collection_ohos` |
 | `diplay-harmony` | 0.13.11 | DiPlay Harmony | `Tedfaraday/DiPlay-Harmony` |
 | `etohos` | 1.0.9 | Etohos | `collaborative-creation/etohos` |
@@ -39,7 +40,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `hapapp` | 1.7.4 | ClashBox | `xiaobaigroup/hapapp` |
 | `hapstore` | 1.0.2 | HapStore | `zhailinlang/hapstore` |
 | `harmonic` | 2.1.7 | Harmonic | `shanyan-wcx/Harmonic` |
-| `harmonyx` | 3.9.0 | Harmony X | `haohaoai0/HarmonyX` |
+| `harmonyx` | 4.2.5 | Harmony X | `haohaoai0/HarmonyX` |
 | `hlib` | 1.0.1 | 海阅 | `LZZLHY/hlib` |
 | `hmos-qwitter` | 0.4.93 | Qwitter | `llnode/hmos-qwitter` |
 | `home-cloud-shield` | 0.1.0 | 栖云盾 | `Tlntin/home-cloud-shield` |
@@ -47,7 +48,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `hx360e` | 1.0.2 | HX360E | `1440196924/HX360E` |
 | `jellyfin-harmonyos` | 1.0.4 | JellyFin | `chashaochang/JellyFin_HarmonyOS` |
 | `kazumi` | 2.4.1 | Kazumi | `ErBWs/Kazumi` |
-| `koma` | 1.5.4 | Koma | `honjow/Koma` |
+| `koma` | 1.5.5 | Koma | `honjow/Koma` |
 | `libretv-for-harmonyos` | 2.3.6 | LibreTV | `panhaichen-creator/LibreTV-for-HarmonyOS` |
 | `linysbrowser-next` | 2.1.1 | 冲浪喵 | `awaLiny2333/LinysBrowser_NEXT` |
 | `lnga-harmony` | 1.3.2 | LNGA | `apap6628114/lnga_harmony` |
@@ -62,18 +63,22 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `neriplayer-harmonyos` | 1.5.0 | 音理音理! | `suyunxing/NeriPlayer-HarmonyOS` |
 | `nexhub` | 4.0.0 | NexHub | `nexhub-app/NexHub` |
 | `nextn` | 1.0.9 | NextN | `erosTeam/NextN` |
+| `noyacg` | 1.0.1 | NoyACG | `Oearawa/NoyACG` |
 | `ohsidian` | latest | OHsidian | `HanversionOvO/OHSidian` |
 | `pilinara` | 2.6.2 | PiliNara | `dev4harmony/PiliNara` |
+| `pilink` | 1.1.3 | Pilink | `chai2shi-spec/pilink` |
 | `piliplus` | 2.2.1 | PiliPlus | `dev4harmony/PiliPlus` |
 | `piliplusx` | 1.1.6.4 | PiliPlusX | `cnctem/PiliPlusX` |
+| `pilipro` | 2.2.1 | PiliPro | `Oearawa/PiliPro` |
 | `quietstart` | 1.3.0 | 轻启 | `thx853068675-dev/quietstart` |
 | `s1-orange` | 1.5.2 | S1 Orange | `wly5556/S1-Orange` |
 | `tailscale-ohos` | 0.3.19 | Tailscale | `flypigJ/Tailscale-OHOS` |
-| `tiktoh` | 0.2.6 | TikToh | `DUDUXXR2/tiktoh` |
+| `tiktoh` | 0.2.7 | TikToh | `DUDUXXR2/tiktoh` |
 | `tunnelark` | 1.1.3 | 隧舟 TunnelArk | `RockyMtnWolf/TunnelArk` |
 | `venhm` | 1.0.11 | VenHM | `CangShui/VenHM` |
 | `vhome-release` | 2.6.14 | VHome (vae＋) | `muleos/VHome-release` |
 | `videojx` | HM | 影视链 | `xiaomoHM/videoJX` |
+| `view-public` | 1.8.0 | 微博 | `wuqiangroy/view-public` |
 | `winehua` | 1.0.32 | 万花 | `winehua/WineHua` |
 | `wpixelgram-for-harmonyos` | 0.1.0 | Wpixelgram | `1055235342/Wpixelgram-for-HarmonyOS` |
 | `yourpipe` | 0.7.0-1000032 | YourPipe | `Ember5843/YourPipe` |
@@ -90,11 +95,13 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `calculatorx` | 1.6.5 | CalculatorX | `StartYR/CalculatorX` |
 | `catpawopen` | 2.0.3 | 影视猫 | `CatPawApp/CatPawOpen` |
 | `chromium-desktop-ohos` | 1.0.4 | Chromium Desktop | `nimmi114514/chromium-desktop-ohos` |
+| `ds-bot-harmonyos` | 0.1.0 | DS-Bot-HarmonyOS | `DingXiaoWu0512/DS-Bot-HarmonyOS` |
 | `ecohub-for-ohos` | 1.4.7 | EcoHub | `fe-spark/EcoHub-for-OHOS` |
 | `fmphoto` | 1.4.2.12 | 飞马相册 | `jonas-pi/FMphoto` |
 | `freshrss-harmony` | 2.56 | FreshRSS | `wtronfi/FreshRSS-Harmony` |
 | `harflix` | 1.0.6 | Harflix | `Actrlq/Harflix` |
 | `harmony-kslmkf-karing-hap` | 1.11.0 | Karing | `ks-lm-kf/harmony-kslmkf-karing-hap` |
+| `harmony-os-wireguard-client` | 1.3.4 | HarmonyOS WireGuard Client | `volcano911/harmony-OS-wireguard-client` |
 | `hey` | 1.3.4 | Hey | `xiaoli8571/Hey` |
 | `homenapod` | 1.0.19 | HomenaPod | `TomoeMami/HomenaPod` |
 | `homowarden` | 2.0.4 | Homowarden | `DreamistW/Homowarden` |
@@ -133,7 +140,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `usbarc` | 1.0.1 | USBArc | `RockyMtnWolf/USBArc` |
 | `vlc-qt6-ohos` | 3.0.21 | VLC播放器 | `Aloereed/vlc-qt6-ohos` |
 
-合计 98 个 cask，未收录 25 个条目。
+合计 105 个 cask，未收录 25 个条目。
 
 ### 未收录的条目
 
