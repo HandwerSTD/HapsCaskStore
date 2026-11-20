@@ -42,13 +42,13 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `harmonic` | 2.1.7 | Harmonic | `shanyan-wcx/Harmonic` |
 | `harmonyx` | 4.2.5 | Harmony X | `haohaoai0/HarmonyX` |
 | `hlib` | 1.0.1 | 海阅 | `LZZLHY/hlib` |
-| `hmos-qwitter` | 0.4.93 | Qwitter | `llnode/hmos-qwitter` |
+| `hmos-qwitter` | 0.4.101 | Qwitter | `llnode/hmos-qwitter` |
 | `home-cloud-shield` | 0.1.0 | 栖云盾 | `Tlntin/home-cloud-shield` |
 | `homl` | 1.1.0 | HOML启动器 | `xiaobaigroup/HOML` |
 | `hx360e` | 1.0.2 | HX360E | `1440196924/HX360E` |
 | `jellyfin-harmonyos` | 1.0.4 | JellyFin | `chashaochang/JellyFin_HarmonyOS` |
 | `kazumi` | 2.4.1 | Kazumi | `ErBWs/Kazumi` |
-| `koma` | 1.5.5 | Koma | `honjow/Koma` |
+| `koma` | 1.5.6 | Koma | `honjow/Koma` |
 | `libretv-for-harmonyos` | 2.3.6 | LibreTV | `panhaichen-creator/LibreTV-for-HarmonyOS` |
 | `linysbrowser-next` | 2.1.1 | 冲浪喵 | `awaLiny2333/LinysBrowser_NEXT` |
 | `lnga-harmony` | 1.3.2 | LNGA | `apap6628114/lnga_harmony` |
@@ -73,12 +73,12 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `quietstart` | 1.3.0 | 轻启 | `thx853068675-dev/quietstart` |
 | `s1-orange` | 1.5.2 | S1 Orange | `wly5556/S1-Orange` |
 | `tailscale-ohos` | 0.3.19 | Tailscale | `flypigJ/Tailscale-OHOS` |
-| `tiktoh` | 0.2.7 | TikToh | `DUDUXXR2/tiktoh` |
+| `tiktoh` | 0.2.9 | TikToh | `DUDUXXR2/tiktoh` |
 | `tunnelark` | 1.1.3 | 隧舟 TunnelArk | `RockyMtnWolf/TunnelArk` |
 | `venhm` | 1.0.11 | VenHM | `CangShui/VenHM` |
 | `vhome-release` | 2.6.14 | VHome (vae＋) | `muleos/VHome-release` |
 | `videojx` | HM | 影视链 | `xiaomoHM/videoJX` |
-| `view-public` | 1.8.0 | 微博 | `wuqiangroy/view-public` |
+| `view-public` | 1.8.2 | 微博 | `wuqiangroy/view-public` |
 | `winehua` | 1.0.32 | 万花 | `winehua/WineHua` |
 | `wpixelgram-for-harmonyos` | 0.1.0 | Wpixelgram | `1055235342/Wpixelgram-for-HarmonyOS` |
 | `yourpipe` | 0.7.0-1000032 | YourPipe | `Ember5843/YourPipe` |
@@ -94,7 +94,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `c001apk-ohos-releases` | 1.3.6 | 酷安 | `muleos/c001apk-ohos-releases` |
 | `calculatorx` | 1.6.5 | CalculatorX | `StartYR/CalculatorX` |
 | `catpawopen` | 2.0.3 | 影视猫 | `CatPawApp/CatPawOpen` |
-| `chromium-desktop-ohos` | 1.0.4 | Chromium Desktop | `nimmi114514/chromium-desktop-ohos` |
+| `chromium-desktop-ohos` | 1.0.5 | Chromium Desktop | `nimmi114514/chromium-desktop-ohos` |
 | `ds-bot-harmonyos` | 0.1.0 | DS-Bot-HarmonyOS | `DingXiaoWu0512/DS-Bot-HarmonyOS` |
 | `ecohub-for-ohos` | 1.4.7 | EcoHub | `fe-spark/EcoHub-for-OHOS` |
 | `fmphoto` | 1.4.2.12 | 飞马相册 | `jonas-pi/FMphoto` |
@@ -113,7 +113,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `neon-ohos` | 1.0.0 | Neon | `shokakucarrier/neon-ohos` |
 | `next2v` | 1.0.14 | Next2V | `honjow/Next2V` |
 | `nexte` | 1.3.9 | NextE | `erosTeam/NextE` |
-| `nexus-vpn-harmonyos` | 0.8.9 | Nexus | `xiaoli8571/Nexus-VPN-HarmonyOS` |
+| `nexus-vpn-harmonyos` | 0.9.2 | Nexus | `xiaoli8571/Nexus-VPN-HarmonyOS` |
 | `niceleep` | 1.1.0 | 响入睡 | `qinshah/niceleep` |
 | `nipaplay-reload` | 2.0.0 | NipaPlay | `AimesSoft/NipaPlay-Reload` |
 | `ohentai` | 0.5.4 | Ohentai | `Ibukitofu/Ohentai` |

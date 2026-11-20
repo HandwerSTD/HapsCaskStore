@@ -1,8 +1,8 @@
 cask "view-public" do
-  version "1.8.0"
-  sha256 arm64_linux: "fe618e045aa0b2981a71f4255b727be6896f1d155e89af7a2930cb63ed4b8783"
+  version "1.8.2"
+  sha256 arm64_linux: "b96d985b91485a0c66ef0c92a0f95b434df3f3b30a24c6302822cf1270fc241e"
 
-  url "https://github.com/wuqiangroy/view-public/releases/download/v#{version}/View-v1.8.0-release-signed.hap"
+  url "https://github.com/wuqiangroy/view-public/releases/download/v#{version}/View-V1.8.2-release-signed.hap"
   name "微博"
   desc "鸿蒙第三方微博客户端"
   homepage "https://github.com/wuqiangroy/view-public"
@@ -16,5 +16,5 @@ cask "view-public" do
   depends_on :linux
   container type: :naked
 
-  ohos_app "View-v1.8.0-release-signed.hap"
+  ohos_app "View-V1.8.2-release-signed.hap"
 end
