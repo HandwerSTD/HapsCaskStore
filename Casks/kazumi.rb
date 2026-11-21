@@ -1,8 +1,8 @@
 cask "kazumi" do
-  version "2.4.1"
-  sha256 arm64_linux: "349691e70be6df7b4056a9667924f75f04dacf0652a4a58a8f81aea0efdb745f"
+  version "2.4.5"
+  sha256 arm64_linux: "8021a63804df95f24920f7948c7bb7041169f5f8147aaeb53b1c0f2b00b4a9d1"
 
-  url "https://github.com/ErBWs/Kazumi/releases/download/#{version}/Kazumi_ohos_2.4.1_unsigned.hap"
+  url "https://github.com/ErBWs/Kazumi/releases/download/#{version}/Kazumi_ohos_2.4.5_unsigned.hap"
   name "Kazumi"
   desc "基于自定义规则的番剧聚合观看应用，支持Anime4K超分辨率"
   homepage "https://github.com/ErBWs/Kazumi"
@@ -16,5 +16,5 @@ cask "kazumi" do
   depends_on :linux
   container type: :naked
 
-  ohos_app "Kazumi_ohos_2.4.1_unsigned.hap"
+  ohos_app "Kazumi_ohos_2.4.5_unsigned.hap"
 end
