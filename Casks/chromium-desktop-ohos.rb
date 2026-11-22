@@ -1,6 +1,6 @@
 cask "chromium-desktop-ohos" do
-  version "1.0.5"
-  sha256 arm64_linux: "792f2e688511dc217c9b4c7cf54e854cd4ad9c1f9f226d672a10950870624975"
+  version "1.0.6"
+  sha256 arm64_linux: "4b58053b8dec06311e7ff757d05b5d9916e138280f3edc542b4d293e4cf9c3b2"
 
   url "https://github.com/nimmi114514/chromium-desktop-ohos/releases/download/v#{version}/chromium-default-unsigned.hap"
   name "Chromium Desktop"
