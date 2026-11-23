@@ -30,7 +30,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `arkclash` | 0.6.0 | ArkClash | `VOD-Studio/ArkClash` |
 | `audiobookshelf-harmonyos` | 2.3.0 | Harmshelf | `shanyan-wcx/Audiobookshelf-HarmonyOS` |
 | `bettbox` | 1.19.8 | Bettbox | `htoay/Bettbox` |
-| `bika-harmonyos` | 1.5.2 | 哔咔 | `LoMoCatAp/Bika-HarmonyOS` |
+| `bika-harmonyos` | 1.5.3 | 哔咔 | `LoMoCatAp/Bika-HarmonyOS` |
 | `bilimusic` | 1.3.9 | BiliMusic | `chai2shi-spec/BiliMusic` |
 | `collection-ohos` | 1.29.0 | 收藏 | `muleos/collection_ohos` |
 | `diplay-harmony` | 0.13.11 | DiPlay Harmony | `Tedfaraday/DiPlay-Harmony` |
@@ -66,11 +66,11 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `noyacg` | 1.0.1 | NoyACG | `Oearawa/NoyACG` |
 | `ohsidian` | latest | OHsidian | `HanversionOvO/OHSidian` |
 | `pilinara` | 2.6.2 | PiliNara | `dev4harmony/PiliNara` |
-| `pilink` | 1.1.5 | Pilink | `chai2shi-spec/pilink` |
+| `pilink` | 1.1.6 | Pilink | `chai2shi-spec/pilink` |
 | `piliplus` | 2.2.1 | PiliPlus | `dev4harmony/PiliPlus` |
 | `piliplusx` | 1.1.6.4 | PiliPlusX | `cnctem/PiliPlusX` |
 | `pilipro` | 2.2.1 | PiliPro | `Oearawa/PiliPro` |
-| `quietstart` | 1.3.0 | 轻启 | `thx853068675-dev/quietstart` |
+| `quietstart` | 1.3.1 | 轻启 | `thx853068675-dev/quietstart` |
 | `s1-orange` | 1.5.2 | S1 Orange | `wly5556/S1-Orange` |
 | `tailscale-ohos` | 0.3.19 | Tailscale | `flypigJ/Tailscale-OHOS` |
 | `tiktoh` | 0.3.0 | TikToh | `DUDUXXR2/tiktoh` |
@@ -82,8 +82,8 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `winehua` | 1.0.32 | 万花 | `winehua/WineHua` |
 | `wpixelgram-for-harmonyos` | 0.1.0 | Wpixelgram | `1055235342/Wpixelgram-for-HarmonyOS` |
 | `yourpipe` | 0.7.0-1000032 | YourPipe | `Ember5843/YourPipe` |
-| `yuanchu-tec-jmcomic-harmonyos` | 1.0.10 | JMComic | `YuanChu-Tec/JMComic-HarmonyOS` |
-| `zhihu-plus-plus-hmos` | 0.5.10 | 知乎++ | `zhuoyi233/zhihu-plus-plus-HMOS` |
+| `yuanchu-tec-jmcomic-harmonyos` | 1.1.0 | JMComic | `YuanChu-Tec/JMComic-HarmonyOS` |
+| `zhihu-plus-plus-hmos` | 0.6.0 | 知乎++ | `zhuoyi233/zhihu-plus-plus-HMOS` |
 
 ### 鸿蒙手机/平板
 
