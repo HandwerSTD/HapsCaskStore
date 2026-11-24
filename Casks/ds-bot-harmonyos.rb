@@ -1,8 +1,8 @@
 cask "ds-bot-harmonyos" do
-  version "0.1.0"
-  sha256 arm64_linux: "61632f4f24dd88f2c577cef092f9e8762e2c4a7fcf6be1adce8277c993c5db8b"
+  version "0.3.10"
+  sha256 arm64_linux: "9c89c5c7e7aa0c35fe01f163cf0005dbd263d55d88ff0da450013eba03496df6"
 
-  url "https://github.com/DingXiaoWu0512/DS-Bot-HarmonyOS/releases/download/v#{version}/DS-Bot-HarmonyOS-v0.1.0.hap"
+  url "https://github.com/DingXiaoWu0512/DS-Bot-HarmonyOS/releases/download/v#{version}/DS-Bot-HarmonyOS-v0.3.10.hap"
   name "DS-Bot-HarmonyOS"
   desc "鸿蒙原生 DS Bot 对话客户端"
   homepage "https://github.com/DingXiaoWu0512/DS-Bot-HarmonyOS"
@@ -16,5 +16,5 @@ cask "ds-bot-harmonyos" do
   depends_on :linux
   container type: :naked
 
-  ohos_app "DS-Bot-HarmonyOS-v0.1.0.hap"
+  ohos_app "DS-Bot-HarmonyOS-v0.3.10.hap"
 end
