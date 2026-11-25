@@ -1,8 +1,8 @@
 cask "pilink" do
-  version "1.1.7"
-  sha256 arm64_linux: "7673253b3916d189d7c27a516ccfc7e79ba9d3de92935665c38d3f305d3e51ff"
+  version "1.1.8"
+  sha256 arm64_linux: "b68dc886313fc222c355f0f294495e2045b4b76391423688b3c574a5acf37cf9"
 
-  url "https://github.com/chai2shi-spec/pilink/releases/download/v#{version}/pilink1.1.7.hap"
+  url "https://github.com/chai2shi-spec/pilink/releases/download/v#{version}/pilink1.1.8.hap"
   name "Pilink"
   desc "鸿蒙 B 站第三方视频播放器"
   homepage "https://github.com/chai2shi-spec/pilink"
@@ -16,5 +16,5 @@ cask "pilink" do
   depends_on :linux
   container type: :naked
 
-  ohos_app "pilink1.1.7.hap"
+  ohos_app "pilink1.1.8.hap"
 end

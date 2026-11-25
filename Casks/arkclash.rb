@@ -1,8 +1,8 @@
 cask "arkclash" do
-  version "0.6.1"
-  sha256 arm64_linux: "f3f8f8fa9770bcb3a8f0cef32fa4a4f627a98533614456410d3be2c2ca1a5579"
+  version "0.6.2"
+  sha256 arm64_linux: "5eb313cf7c88b0f5bbdabc664dd796bf07ee0470f1120dd0a19c4801db26eef5"
 
-  url "https://github.com/VOD-Studio/ArkClash/releases/download/v#{version}/ArkClash-0.6.1-unsigned.hap"
+  url "https://github.com/VOD-Studio/ArkClash/releases/download/v#{version}/ArkClash-0.6.2-debug-signed.hap"
   name "ArkClash"
   desc "基于 Mihomo 内核的鸿蒙代理客户端"
   homepage "https://github.com/VOD-Studio/ArkClash"
@@ -16,5 +16,5 @@ cask "arkclash" do
   depends_on :linux
   container type: :naked
 
-  ohos_app "ArkClash-0.6.1-unsigned.hap"
+  ohos_app "ArkClash-0.6.2-debug-signed.hap"
 end
