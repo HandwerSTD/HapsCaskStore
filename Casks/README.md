@@ -27,7 +27,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `aira-browser` | 3.9.7 | Aira | `mason173/aira-browser` |
 | `amcl` | 1.0.8 | AMCL | `LZZLHY/amcl` |
 | `anich` | 1.5.27 | AniCh | `Sle2p/AniCh` |
-| `arkclash` | 0.6.2 | ArkClash | `VOD-Studio/ArkClash` |
+| `arkclash` | 0.6.3 | ArkClash | `VOD-Studio/ArkClash` |
 | `audiobookshelf-harmonyos` | 2.3.0 | Harmshelf | `shanyan-wcx/Audiobookshelf-HarmonyOS` |
 | `bettbox` | 1.19.8 | Bettbox | `htoay/Bettbox` |
 | `bika-harmonyos` | 1.5.3 | 哔咔 | `LoMoCatAp/Bika-HarmonyOS` |
@@ -42,17 +42,17 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `harmonic` | 2.1.7 | Harmonic | `shanyan-wcx/Harmonic` |
 | `harmonyx` | 4.2.5 | Harmony X | `haohaoai0/HarmonyX` |
 | `hlib` | 1.0.1 | 海阅 | `LZZLHY/hlib` |
-| `hmos-qwitter` | 0.4.101 | Qwitter | `llnode/hmos-qwitter` |
-| `home-cloud-shield` | 0.1.2 | 栖云盾 | `Tlntin/home-cloud-shield` |
+| `hmos-qwitter` | 0.4.102 | Qwitter | `llnode/hmos-qwitter` |
+| `home-cloud-shield` | 0.1.3 | 栖云盾 | `Tlntin/home-cloud-shield` |
 | `homl` | 1.1.0 | HOML启动器 | `xiaobaigroup/HOML` |
 | `hx360e` | 1.0.2 | HX360E | `1440196924/HX360E` |
 | `jellyfin-harmonyos` | 1.0.4 | JellyFin | `chashaochang/JellyFin_HarmonyOS` |
 | `kazumi` | 2.4.6 | Kazumi | `ErBWs/Kazumi` |
-| `koma` | 1.6.2 | Koma | `honjow/Koma` |
+| `koma` | 1.6.3 | Koma | `honjow/Koma` |
 | `libretv-for-harmonyos` | 2.3.6 | LibreTV | `panhaichen-creator/LibreTV-for-HarmonyOS` |
 | `linysbrowser-next` | 2.1.1 | 冲浪喵 | `awaLiny2333/LinysBrowser_NEXT` |
 | `lnga-harmony` | 1.3.2 | LNGA | `apap6628114/lnga_harmony` |
-| `lovelyflash-jmcomic-harmonyos` | 1.1.5 | JMComic | `LovelyFlash/JMComic-HarmonyOS` |
+| `lovelyflash-jmcomic-harmonyos` | 1.2.0 | JMComic | `LovelyFlash/JMComic-HarmonyOS` |
 | `lvlian-view-hm` | 1.0.21 | 联文件 | `fhf2022/lvlian-view-hm` |
 | `lx-music-harmony` | 1.0.0 | 洛雪音乐 | `k-brother/lx-music-harmony` |
 | `mcb-ohos` | 1.2.0 | Minecraft Box | `lxdklp/MCB_OHOS` |
@@ -73,7 +73,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `quietstart` | 1.3.2 | 轻启 | `thx853068675-dev/quietstart` |
 | `s1-orange` | 1.5.2 | S1 Orange | `wly5556/S1-Orange` |
 | `tailscale-ohos` | 0.3.19 | Tailscale | `flypigJ/Tailscale-OHOS` |
-| `tiktoh` | 0.3.2 | TikToh | `DUDUXXR2/tiktoh` |
+| `tiktoh` | 0.3.3 | TikToh | `DUDUXXR2/tiktoh` |
 | `tunnelark` | 1.1.3 | 隧舟 TunnelArk | `RockyMtnWolf/TunnelArk` |
 | `venhm` | 1.0.11 | VenHM | `CangShui/VenHM` |
 | `vhome-release` | 2.6.14 | VHome (vae＋) | `muleos/VHome-release` |
@@ -81,7 +81,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `view-public` | 1.8.3 | 微博 | `wuqiangroy/view-public` |
 | `winehua` | 1.0.32 | 万花 | `winehua/WineHua` |
 | `wpixelgram-for-harmonyos` | 0.1.0 | Wpixelgram | `1055235342/Wpixelgram-for-HarmonyOS` |
-| `yourpipe` | 0.7.0-1000032 | YourPipe | `Ember5843/YourPipe` |
+| `yourpipe` | 0.7.2-1000035 | YourPipe | `Ember5843/YourPipe` |
 | `yuanchu-tec-jmcomic-harmonyos` | 1.1.0 | JMComic | `YuanChu-Tec/JMComic-HarmonyOS` |
 | `zhihu-plus-plus-hmos` | 0.6.0 | 知乎++ | `zhuoyi233/zhihu-plus-plus-HMOS` |
 
@@ -100,7 +100,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `fmphoto` | 1.4.2.12 | 飞马相册 | `jonas-pi/FMphoto` |
 | `freshrss-harmony` | 2.56 | FreshRSS | `wtronfi/FreshRSS-Harmony` |
 | `harflix` | 1.0.6 | Harflix | `Actrlq/Harflix` |
-| `harmony-kslmkf-karing-hap` | 1.11.0 | Karing | `ks-lm-kf/harmony-kslmkf-karing-hap` |
+| `harmony-kslmkf-karing-hap` | 1.11.1 | Karing | `ks-lm-kf/harmony-kslmkf-karing-hap` |
 | `harmony-os-wireguard-client` | 1.3.4 | HarmonyOS WireGuard Client | `volcano911/harmony-OS-wireguard-client` |
 | `hey` | 1.3.4 | Hey | `xiaoli8571/Hey` |
 | `homenapod` | 1.0.19 | HomenaPod | `TomoeMami/HomenaPod` |
@@ -117,7 +117,7 @@ cask token 取上游下载仓库名，重名时加上各自的 owner 前缀。
 | `niceleep` | 1.1.0 | 响入睡 | `qinshah/niceleep` |
 | `nipaplay-reload` | 2.0.0 | NipaPlay | `AimesSoft/NipaPlay-Reload` |
 | `ohentai` | 0.5.4 | Ohentai | `Ibukitofu/Ohentai` |
-| `petrelgram` | 1.6.2 | Petrelgram | `miramira8295/Petrelgram` |
+| `petrelgram` | 1.6.3 | Petrelgram | `miramira8295/Petrelgram` |
 | `picacomic-ohos` | 5.1.1 | Pica Comic | `nimmi114514/PicaComic_ohos` |
 | `pinmony` | 3.1.0 | Pinmony | `Torotar/Pinmony` |
 | `pixez-flutter-ohos` | 0.9.114 | PixEz | `bgli100/pixez-flutter-ohos` |

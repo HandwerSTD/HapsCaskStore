@@ -1,8 +1,8 @@
 cask "yourpipe" do
-  version "0.7.0-1000032"
-  sha256 arm64_linux: "191bc9f4c40902b9eb9783b87ee19c9a342a1e8c46b958b15bf8edc34dbe57ca"
+  version "0.7.2-1000035"
+  sha256 arm64_linux: "5a04687793501a0c2556fc5e0f5e14468f62c5dd192a93ebf335e5f8f74e8d3f"
 
-  url "https://github.com/Ember5843/YourPipe/releases/download/v#{version}/YourPipe-v0.7.0-1000032-unsigned.hap"
+  url "https://github.com/Ember5843/YourPipe/releases/download/v#{version}/YourPipe-v0.7.2-1000035-unsigned.hap"
   name "YourPipe"
   desc "基于NewPipe Extractor的鸿蒙YouTube客户端"
   homepage "https://github.com/Ember5843/YourPipe"
@@ -16,5 +16,5 @@ cask "yourpipe" do
   depends_on :linux
   container type: :naked
 
-  ohos_app "YourPipe-v0.7.0-1000032-unsigned.hap"
+  ohos_app "YourPipe-v0.7.2-1000035-unsigned.hap"
 end
