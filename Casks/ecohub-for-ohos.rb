@@ -1,8 +1,8 @@
 cask "ecohub-for-ohos" do
-  version "1.4.7"
-  sha256 arm64_linux: "feb825f9c3eade5b626bae9a3afdb5ea278730ce4443430c08edc2a664513a9a"
+  version "1.4.8"
+  sha256 arm64_linux: "6188357d90e42cf2aa8606f66913a3c6826fd51dca224f1e18278ea79a0cf76c"
 
-  url "https://github.com/fe-spark/EcoHub-for-OHOS/releases/download/v#{version}/EcoHub-1.4.7-c6cb4dd-unsigned.hap"
+  url "https://github.com/fe-spark/EcoHub-for-OHOS/releases/download/v#{version}/EcoHub-1.4.8-be07bbd-unsigned.hap"
   name "EcoHub"
   desc "自托管影视聚合服务 EcoHub 的鸿蒙客户端，连接自建服务观看影视"
   homepage "https://github.com/fe-spark/EcoHub-for-OHOS"
@@ -16,5 +16,5 @@ cask "ecohub-for-ohos" do
   depends_on :linux
   container type: :naked
 
-  ohos_app "EcoHub-1.4.7-c6cb4dd-unsigned.hap"
+  ohos_app "EcoHub-1.4.8-be07bbd-unsigned.hap"
 end

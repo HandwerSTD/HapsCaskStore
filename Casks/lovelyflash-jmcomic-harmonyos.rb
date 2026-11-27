@@ -1,6 +1,6 @@
 cask "lovelyflash-jmcomic-harmonyos" do
-  version "1.2.0"
-  sha256 arm64_linux: "5141b52da2ad9cf4f6d070e95e1f75f32b02cf57790f57350788b28fa6237bf4"
+  version "1.2.1"
+  sha256 arm64_linux: "ab86e19385a7423a515ea5f0b81033cbe7890ca198cf587119ce49b4c8c288ff"
 
   url "https://github.com/LovelyFlash/JMComic-HarmonyOS/releases/download/v#{version}/entry-default-signed.hap"
   name "JMComic"
