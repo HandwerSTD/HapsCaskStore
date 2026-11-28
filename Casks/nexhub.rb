@@ -1,8 +1,8 @@
 cask "nexhub" do
   version "4.0.0"
-  sha256 arm64_linux: "deb7356ab2231ce9306ff32cdb9aaeca57c5758c91413a622c4330a6e83e6c98"
+  sha256 arm64_linux: "e94705cf9ff8b1f31bea90f105c8c9e053585c9fe5ce34cd8a0779347098345d"
 
-  url "https://github.com/nexhub-app/NexHub/releases/download/v#{version}-beta.3/NexHub-ohos-arm64-unsigned.hap"
+  url "https://github.com/nexhub-app/NexHub/releases/download/v#{version}-beta.4/NexHub-ohos-arm64-unsigned.hap"
   name "NexHub"
   desc "聚合动漫、漫画、小说与影视的跨平台客户端"
   homepage "https://github.com/nexhub-app/NexHub"

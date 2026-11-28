@@ -1,6 +1,6 @@
 cask "home-cloud-shield" do
-  version "0.1.3"
-  sha256 arm64_linux: "d34cc448c586d5bc5ebc0a8bd4573e681efba430763424b0a75bbd2b33e1b1a9"
+  version "0.1.4"
+  sha256 arm64_linux: "360594081518823a409768c8dbc721ebf30a083d374898e1b829bc33c5bbaced"
 
   url "https://github.com/Tlntin/home-cloud-shield/releases/download/v#{version}/entry-default-unsigned.hap"
   name "栖云盾"
